@@ -14,7 +14,7 @@ GET https://z86dj6j4r4-rgb.github.io/meanweather-beaches/beaches.json
 | County | Beaches | Source | PSPO valid until |
 |--------|---------|--------|-----------------|
 | Cornwall | 29 | cornwall.gov.uk | 2028 |
-| Devon | 13 | northdevon.gov.uk, eastdevon.gov.uk, torbay.gov.uk | 2026 |
+| Devon | 22 | northdevon.gov.uk, eastdevon.gov.uk, torridge.gov.uk | 2026 |
 | Dorset | 10 | dorsetcouncil.gov.uk | Dec 2026 |
 | Somerset | 6 | somerset.gov.uk | 2026 |
 | Pembrokeshire | 12 | pembrokeshire.gov.uk | 2026 |
@@ -22,14 +22,19 @@ GET https://z86dj6j4r4-rgb.github.io/meanweather-beaches/beaches.json
 | Northumberland | 8 | northumberland.gov.uk | 2026 |
 | Suffolk | 8 | eastsuffolk.gov.uk, waveney.gov.uk | 2026 |
 | Norfolk | 7 | north-norfolk.gov.uk, west-norfolk.gov.uk | 2026 |
-| **Total** | **106** | | |
+| Kent | 16 | thanet.gov.uk, canterbury.gov.uk, folkestone-hythe.gov.uk, dover.gov.uk | 2026 |
+| East Sussex | 8 | brighton-hove.gov.uk, eastbourne.gov.uk, hastings.gov.uk, rother.gov.uk | 2026 |
+| West Sussex | 6 | adur-worthing.gov.uk, arun.gov.uk, westwitteringbeach.co.uk | 2026 |
+| Essex | 8 | tendringdc.gov.uk, southend.gov.uk, colchester.gov.uk | 2026 |
+| Lancashire | 8 | blackpool.gov.uk, fylde.gov.uk, wyre.gov.uk, lancaster.gov.uk | 2027 |
+| **Total** | **168** | | |
 
 ## Coming soon
-- Sussex (Brighton, Eastbourne, Worthing)
-- Kent (Whitstable, Margate, Folkestone)
 - Hampshire & Isle of Wight
 - Lincolnshire
-- Wales — Gower Peninsula, Anglesey
+- Merseyside (Crosby, Formby, Ainsdale)
+- Wales — Gower Peninsula, Anglesey, Llandudno
+- Scotland — Portobello, St Andrews, North Berwick
 
 ## Restriction types
 
@@ -46,8 +51,8 @@ GET https://z86dj6j4r4-rgb.github.io/meanweather-beaches/beaches.json
 {
   "meta": {
     "version": "1.0.0",
-    "last_updated": "2026-05-30",
-    "total_beaches": 106
+    "last_updated": "2026-06-03",
+    "total_beaches": 168
   },
   "beaches": [
     {
@@ -79,4 +84,4 @@ Found an error? Open an issue on this repo.
 
 ## Usage
 
-Free to use. Attribution appreciated: "Beach data: MeanWeather"
+"Beach data: By MeanWeather"
