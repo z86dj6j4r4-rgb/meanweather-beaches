@@ -663,7 +663,8 @@
       "source_url": "https://www.southhams.gov.uk/environment-and-nuisance/dogs/dog-exclusion-areas-beaches",
       "last_verified": "2026-06"
     },
-    {    "id": "gb_devon_goodrington_north",
+    {    
+      "id": "gb_devon_goodrington_north",
       "name": "Goodrington Sands North",
       "county": "Devon",
       "lat": 50.4182,
