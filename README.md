@@ -10,7 +10,6 @@ GET https://z86dj6j4r4-rgb.github.io/meanweather-beaches/beaches.json
 ```
 
 ## Coverage
-
 | County | Beaches | Source | PSPO valid until |
 |--------|---------|--------|-----------------|
 | Cornwall | 29 | cornwall.gov.uk | 2028 |
@@ -27,14 +26,22 @@ GET https://z86dj6j4r4-rgb.github.io/meanweather-beaches/beaches.json
 | West Sussex | 6 | adur-worthing.gov.uk, arun.gov.uk, westwitteringbeach.co.uk | 2026 |
 | Essex | 8 | tendringdc.gov.uk, southend.gov.uk, colchester.gov.uk | 2026 |
 | Lancashire | 8 | blackpool.gov.uk, fylde.gov.uk, wyre.gov.uk, lancaster.gov.uk | 2027 |
-| **Total** | **168** | | |
+| Hampshire | 12 | fareham.gov.uk, gosport.gov.uk, havant.gov.uk, newforest.gov.uk, portsmouth.gov.uk | 2026 |
+| Isle of Wight | 15 | iow.gov.uk | 2028 |
+| Lincolnshire | 9 | e-lindsey.gov.uk, nelincs.gov.uk | 2027 |
+| Merseyside | 8 | sefton.gov.uk, wirral.gov.uk | 2027 |
+| Swansea (Gower) | 7 | swansea.gov.uk | 2026 |
+| Anglesey | 13 | anglesey.gov.wales | 2026 |
+| Conwy | 2 | conwy.gov.uk | 2026 |
+| Edinburgh | 2 | edinburgh.gov.uk | — |
+| Fife | 2 | fife.gov.uk | — |
+| East Lothian | 2 | eastlothian.gov.uk | — |
+| **Total** | **240** | | |
 
 ## Coming soon
-- Hampshire & Isle of Wight
-- Lincolnshire
-- Merseyside (Crosby, Formby, Ainsdale)
-- Wales — Gower Peninsula, Anglesey, Llandudno
-- Scotland — Portobello, St Andrews, North Berwick
+- Wales — Pembrey, Pendine, Ceredigion coast
+- Scotland — Fife coastal towns, Ayrshire
+- North West England — Cumbria
 
 ## Restriction types
 
@@ -50,9 +57,9 @@ GET https://z86dj6j4r4-rgb.github.io/meanweather-beaches/beaches.json
 ```json
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "last_updated": "2026-06-03",
-    "total_beaches": 168
+    "total_beaches": 240
   },
   "beaches": [
     {
