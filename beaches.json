@@ -1,33 +1,36 @@
 {
   "meta": {
     "version": "1.1.0",
-    "last_updated": "2026-06-22",
+    "last_updated": "2026-06-28",
     "coverage": [
-  "Cornwall",
-  "Devon",
-  "Dorset",
-  "Somerset",
-  "Pembrokeshire",
-  "Yorkshire",
-  "Northumberland",
-  "Suffolk",
-  "Norfolk",
-  "Kent",
-  "East Sussex",
-  "West Sussex",
-  "Essex",
-  "Lancashire",
-  "Hampshire",
-  "Isle of Wight",
-  "Lincolnshire",
-  "Merseyside",
-  "Swansea",
-  "Anglesey",
-  "Conwy",
-  "Edinburgh",
-  "Fife",
-  "East Lothian"
-],
+      "Anglesey",
+      "Conwy",
+      "Cornwall",
+      "County Durham",
+      "Cumbria",
+      "Devon",
+      "Dorset",
+      "East Lothian",
+      "East Sussex",
+      "Edinburgh",
+      "Essex",
+      "Fife",
+      "Gower",
+      "Hampshire",
+      "Isle of Wight",
+      "Kent",
+      "Lancashire",
+      "Lincolnshire",
+      "Merseyside",
+      "Norfolk",
+      "Northumberland",
+      "Pembrokeshire",
+      "Somerset",
+      "Suffolk",
+      "Swansea",
+      "West Sussex",
+      "Yorkshire"
+    ],
     "notes": "All restrictions verified from official council PSPO pages. Cornwall PSPO valid 2026-2028. Dorset PSPO valid until Dec 2026.",
     "restriction_types": {
       "prohibited_seasonal": "Dogs banned from beach during dates/times shown",
@@ -35,7 +38,7 @@
       "prohibited_year_round": "Dogs never permitted",
       "no_restriction": "Dogs welcome at all times"
     },
-    "total_beaches": 240
+    "total_beaches": 243
   },
   "beaches": [
     {
@@ -52,7 +55,8 @@
       "on_lead_required": false,
       "notes": "",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_carbis_bay",
@@ -68,7 +72,8 @@
       "on_lead_required": false,
       "notes": "Blue Flag beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_carnsew_pool",
@@ -84,7 +89,8 @@
       "on_lead_required": false,
       "notes": "Protected wildlife area - 24hr year-round ban",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_castle_beach_falmouth",
@@ -100,7 +106,8 @@
       "on_lead_required": false,
       "notes": "Falmouth",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_cawsand",
@@ -116,7 +123,8 @@
       "on_lead_required": false,
       "notes": "",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_chapel_porth",
@@ -132,7 +140,8 @@
       "on_lead_required": false,
       "notes": "St Agnes",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_church_cove_gunwalloe",
@@ -148,7 +157,8 @@
       "on_lead_required": false,
       "notes": "Gunwalloe",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_copperhouse_pool",
@@ -164,7 +174,8 @@
       "on_lead_required": false,
       "notes": "Protected wildlife area - 24hr year-round ban",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_crackington_haven",
@@ -180,7 +191,8 @@
       "on_lead_required": false,
       "notes": "Seaside Award beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_crooklets",
@@ -196,7 +208,8 @@
       "on_lead_required": false,
       "notes": "Bude. Seaside Award beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_gyllyngvase",
@@ -212,7 +225,8 @@
       "on_lead_required": false,
       "notes": "Falmouth. Blue Flag beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_hayle_towans",
@@ -228,7 +242,8 @@
       "on_lead_required": false,
       "notes": "Hayle",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_hayle_estuary",
@@ -244,7 +259,8 @@
       "on_lead_required": false,
       "notes": "Protected wildlife area - 24hr year-round ban",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_hoodny_portwrinkle",
@@ -260,7 +276,8 @@
       "on_lead_required": false,
       "notes": "Portwrinkle",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_housel_bay",
@@ -276,7 +293,8 @@
       "on_lead_required": false,
       "notes": "The Lizard",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_perranporth",
@@ -292,7 +310,8 @@
       "on_lead_required": false,
       "notes": "Seaside Award beach",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_polzeath",
@@ -308,7 +327,8 @@
       "on_lead_required": false,
       "notes": "Seaside Award beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_porthmeor",
@@ -324,7 +344,8 @@
       "on_lead_required": false,
       "notes": "St Ives. Blue Flag beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_porthminster",
@@ -340,7 +361,8 @@
       "on_lead_required": false,
       "notes": "St Ives. Blue Flag beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_porthmissen_trevone",
@@ -356,7 +378,8 @@
       "on_lead_required": false,
       "notes": "Seaside Award beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_porthtowan",
@@ -372,7 +395,8 @@
       "on_lead_required": false,
       "notes": "Seaside Award beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_sennen",
@@ -388,7 +412,8 @@
       "on_lead_required": false,
       "notes": "Seaside Award beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_summerleaze_bude",
@@ -404,7 +429,8 @@
       "on_lead_required": true,
       "notes": "Bude. Dogs permitted but must be on lead during restricted hours. Not prohibited - just on-lead.",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_widemouth_bay",
@@ -420,7 +446,8 @@
       "on_lead_required": false,
       "notes": "Seaside Award beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_fistral",
@@ -436,7 +463,8 @@
       "on_lead_required": false,
       "notes": "Newquay. Blue Flag beach - longer restriction period",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_watergate_bay",
@@ -452,7 +480,8 @@
       "on_lead_required": false,
       "notes": "Newquay area",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_porthcurno",
@@ -468,7 +497,8 @@
       "on_lead_required": false,
       "notes": "No Cornwall PSPO restriction. Dogs welcome all year.",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_kynance_cove",
@@ -484,7 +514,8 @@
       "on_lead_required": false,
       "notes": "National Trust. No formal PSPO. NT ask dogs kept under close control.",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_cornwall_charlestown",
@@ -500,7 +531,8 @@
       "on_lead_required": false,
       "notes": "No Cornwall PSPO restriction. Dogs welcome all year.",
       "source_url": "https://www.cornwall.gov.uk/environment/animal-welfare-and-enforcement/dogs-on-beaches/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2028-05-01"
     },
     {
       "id": "gb_devon_croyde_bay",
@@ -516,7 +548,8 @@
       "on_lead_required": false,
       "notes": "North Devon PSPO. Full ban May-Sept, no time window - dogs not permitted at all during this period.",
       "source_url": "https://www.northdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_combe_martin",
@@ -532,7 +565,8 @@
       "on_lead_required": false,
       "notes": "North Devon PSPO. Full ban May-Sept.",
       "source_url": "https://www.northdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_woolacombe",
@@ -548,7 +582,8 @@
       "on_lead_required": false,
       "notes": "North Devon. Dogs permitted outside 10am-6pm. Large beach with unrestricted sections at north end.",
       "source_url": "https://www.northdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_westward_ho",
@@ -564,7 +599,8 @@
       "on_lead_required": false,
       "notes": "North Devon PSPO.",
       "source_url": "https://www.northdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_saunton_sands",
@@ -580,7 +616,8 @@
       "on_lead_required": false,
       "notes": "North Devon. Very long beach - dog-friendly sections at southern end year-round.",
       "source_url": "https://www.northdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_paignton_sands",
@@ -596,7 +633,8 @@
       "on_lead_required": false,
       "notes": "Torbay PSPO.",
       "source_url": "https://www.torbay.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_torre_abbey_sands",
@@ -612,7 +650,8 @@
       "on_lead_required": false,
       "notes": "Torquay. Torbay PSPO.",
       "source_url": "https://www.torbay.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_oddicombe",
@@ -628,7 +667,8 @@
       "on_lead_required": false,
       "notes": "Torquay. Torbay PSPO.",
       "source_url": "https://www.torbay.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_babbacombe",
@@ -644,7 +684,8 @@
       "on_lead_required": false,
       "notes": "Torbay. Dogs welcome all year - listed as unrestricted in Torbay PSPO.",
       "source_url": "https://www.torbay.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_bigbury_main",
@@ -660,7 +701,8 @@
       "on_lead_required": false,
       "notes": "Main beach between car park and Burgh Island. Dogs banned 1st May to 30th Sept, 10am to 7pm. South Hams PSPO.",
       "source_url": "https://www.southhams.gov.uk/environment-and-nuisance/dogs/dog-exclusion-areas-beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_bigbury_west_right_side",
@@ -676,7 +718,8 @@
       "on_lead_required": false,
       "notes": "Smaller beach west of the causeway. Dogs welcome all year round.",
       "source_url": "https://www.southhams.gov.uk/environment-and-nuisance/dogs/dog-exclusion-areas-beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_goodrington_north",
@@ -692,7 +735,8 @@
       "on_lead_required": false,
       "notes": "Torbay. North sands unrestricted. South section banned May-Sept.",
       "source_url": "https://www.torbay.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_sidmouth",
@@ -708,7 +752,8 @@
       "on_lead_required": false,
       "notes": "East Devon PSPO.",
       "source_url": "https://www.eastdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_budleigh_salterton",
@@ -724,7 +769,8 @@
       "on_lead_required": false,
       "notes": "East Devon PSPO.",
       "source_url": "https://www.eastdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_devon_exmouth",
@@ -740,7 +786,8 @@
       "on_lead_required": false,
       "notes": "East Devon PSPO. Central beach section. Dog-friendly sections at eastern end.",
       "source_url": "https://www.eastdevon.gov.uk/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_dorset_durdle_door",
@@ -756,7 +803,8 @@
       "on_lead_required": false,
       "notes": "Dogs welcome all year. No Dorset PSPO restriction.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_lulworth_cove",
@@ -772,7 +820,8 @@
       "on_lead_required": false,
       "notes": "Dogs welcome all year. No Dorset PSPO restriction.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_west_bay",
@@ -788,7 +837,8 @@
       "on_lead_required": false,
       "notes": "East/West harbour sides restricted. Third beach beyond rock groyne unrestricted all year.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_charmouth_east",
@@ -804,7 +854,8 @@
       "on_lead_required": false,
       "notes": "East beach no restrictions all year. West beach restricted Oct-Apr only.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_burton_bradstock",
@@ -820,7 +871,8 @@
       "on_lead_required": true,
       "notes": "National Trust. No formal PSPO but NT request dogs not exercised freely May-Sept.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_lyme_regis_front",
@@ -836,7 +888,8 @@
       "on_lead_required": true,
       "notes": "Dogs allowed Oct-Apr on lead only.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_monmouth_beach",
@@ -852,7 +905,8 @@
       "on_lead_required": false,
       "notes": "Lyme Regis area. Dogs welcome all year.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_cogden_beach",
@@ -868,7 +922,8 @@
       "on_lead_required": false,
       "notes": "Dogs welcome all year.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_studland",
@@ -884,7 +939,8 @@
       "on_lead_required": true,
       "notes": "National Trust. Shell, South, Middle beaches require on-lead May-Sept. Knoll beach unrestricted. Check NT signage.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_dorset_church_cliff",
@@ -900,7 +956,8 @@
       "on_lead_required": false,
       "notes": "Lyme Regis area. Dogs welcome all year.",
       "source_url": "https://www.dorsetcouncil.gov.uk/w/walking-dogs-on-beaches",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2026-12-31"
     },
     {
       "id": "gb_hampshire_hillhead",
@@ -916,7 +973,8 @@
       "on_lead_required": false,
       "notes": "Fareham PSPO. Main beach and Salterns Beach banned May-Sept. Small section west of main car park unrestricted all year.",
       "source_url": "https://www.fareham.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_lee_on_solent",
@@ -932,7 +990,8 @@
       "on_lead_required": false,
       "notes": "Gosport PSPO 2020. Dogs banned in signed controlled areas. Promenade areas unrestricted.",
       "source_url": "https://www.gosport.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_stokes_bay",
@@ -948,7 +1007,8 @@
       "on_lead_required": false,
       "notes": "Gosport PSPO 2020. Dog-free from Pebble Beach to GAFIRS lifeboat station. East end towards Fort Gilkicker unrestricted all year.",
       "source_url": "https://www.gosport.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_hayling_eastoke",
@@ -964,7 +1024,8 @@
       "on_lead_required": false,
       "notes": "Dogs permitted all year from Bosmere Road to the lifeboat station. On lead on promenade May-Sept.",
       "source_url": "https://www.havant.gov.uk/beach-safety",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_hayling_beachlands_central",
@@ -980,7 +1041,8 @@
       "on_lead_required": false,
       "notes": "Havant PSPO. Blue Flag beach section. Roughly a quarter of the accessible beach. Dogs allowed Oct-Apr across all Hayling Island.",
       "source_url": "https://www.havant.gov.uk/beach-safety",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_hayling_beachlands_west",
@@ -996,7 +1058,8 @@
       "on_lead_required": false,
       "notes": "Havant PSPO. Part of the Blue Flag beach area. On lead on promenade during restricted period.",
       "source_url": "https://www.havant.gov.uk/beach-safety",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_calshot",
@@ -1012,14 +1075,15 @@
       "on_lead_required": false,
       "notes": "Hampshire County Council/New Forest. No PSPO dog beach ban found. Dogs welcome all year.",
       "source_url": "https://www.newforest.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_christchurch_bay",
       "name": "Christchurch Bay (Highcliffe)",
       "county": "Hampshire",
-      "lat": 50.7350,
-      "lng": -1.7120,
+      "lat": 50.735,
+      "lng": -1.712,
       "restriction_type": "no_restriction",
       "restricted_date_start": null,
       "restricted_date_end": null,
@@ -1028,13 +1092,14 @@
       "on_lead_required": false,
       "notes": "New Forest District Council area. No beach dog ban PSPO identified.",
       "source_url": "https://www.newforest.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_lepe",
       "name": "Lepe Beach",
       "county": "Hampshire",
-      "lat": 50.7880,
+      "lat": 50.788,
       "lng": -1.3688,
       "restriction_type": "no_restriction",
       "restricted_date_start": null,
@@ -1044,7 +1109,8 @@
       "on_lead_required": false,
       "notes": "Hampshire County Council (Lepe Country Park). No formal dog ban. Dogs welcome in country park and on beach.",
       "source_url": "https://www.newforest.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_milford_on_sea",
@@ -1060,7 +1126,8 @@
       "on_lead_required": false,
       "notes": "New Forest District Council. No dog beach ban PSPO identified. Dogs welcome all year.",
       "source_url": "https://www.newforest.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_eastney",
@@ -1076,7 +1143,8 @@
       "on_lead_required": false,
       "notes": "Portsmouth City Council PSPO. Dogs banned on foreshore between Coffee Cup cafe at Eastney and Southsea Castle.",
       "source_url": "https://www.portsmouth.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_hampshire_southsea_east",
@@ -1092,13 +1160,14 @@
       "on_lead_required": false,
       "notes": "Portsmouth City Council PSPO. Dogs banned on foreshore between Royal Marines statue and Southsea Castle.",
       "source_url": "https://www.portsmouth.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_bembridge",
       "name": "Bembridge Beach",
       "county": "Isle of Wight",
-      "lat": 50.6850,
+      "lat": 50.685,
       "lng": -1.0756,
       "restriction_type": "no_restriction",
       "restricted_date_start": null,
@@ -1108,14 +1177,15 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Bembridge not included in seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_colwell_bay",
       "name": "Colwell Bay",
       "county": "Isle of Wight",
       "lat": 50.6847,
-      "lng": -1.5550,
+      "lng": -1.555,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
       "restricted_date_end": "09-30",
@@ -1124,7 +1194,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Full exclusion zone May-Sept. Section east of the slipway unrestricted all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_compton_bay",
@@ -1140,7 +1211,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Not included in seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_cowes",
@@ -1156,7 +1228,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded from designated beach area May-Sept.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_east_cowes",
@@ -1172,7 +1245,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded May-Sept.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_gurnard",
@@ -1188,7 +1262,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded May-Sept.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_ryde",
@@ -1204,14 +1279,15 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded from Ryde beach exclusion zone May-Sept. Sections west of the pier and east of Appley Tower remain dog-friendly all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_sandown",
       "name": "Sandown Beach",
       "county": "Isle of Wight",
       "lat": 50.6528,
-      "lng": -1.1550,
+      "lng": -1.155,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
       "restricted_date_end": "09-30",
@@ -1220,7 +1296,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded May-Sept. Western boundary adjusted 2024 to correct anomaly.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_seagrove",
@@ -1236,7 +1313,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Not included in seasonal exclusion zones. Quieter outer sections dog-friendly all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_shanklin",
@@ -1252,7 +1330,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded May-Sept.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_st_helens",
@@ -1268,7 +1347,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Not in seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_totland_bay",
@@ -1284,7 +1364,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Not in seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_ventnor",
@@ -1300,7 +1381,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded May-Sept.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_whitecliff_bay",
@@ -1316,7 +1398,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Not in seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_iow_yaverland",
@@ -1332,7 +1415,8 @@
       "on_lead_required": false,
       "notes": "IoW PSPO 2025. Dogs excluded from main Yaverland zone May-Sept. Area to the east of the car park remains dog-friendly all year.",
       "source_url": "https://www.iow.gov.uk/libraries-leisure-and-heritage/recreation-and-lesiure/parks-and-public-spaces/public-spaces-protection-order-pspo/",
-      "last_verified": "2026-05"
+      "last_verified": "2026-05",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_anderby",
@@ -1348,14 +1432,15 @@
       "on_lead_required": false,
       "notes": "East Lindsey. Listed as dog-friendly beach. Not in the PSPO exclusion zones (Skegness/Mablethorpe/Sutton only).",
       "source_url": "https://www.e-lindsey.gov.uk/article/6050/Public-Space-Protection-Orders-and-Dog-Free-Beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_chapel_st_leonards",
       "name": "Chapel St Leonards Beach",
       "county": "Lincolnshire",
       "lat": 53.2283,
-      "lng": 0.3270,
+      "lng": 0.327,
       "restriction_type": "no_restriction",
       "restricted_date_start": null,
       "restricted_date_end": null,
@@ -1364,7 +1449,8 @@
       "on_lead_required": false,
       "notes": "East Lindsey. Specifically listed as a dog-friendly beach all year. Not in PSPO exclusion zones.",
       "source_url": "https://www.e-lindsey.gov.uk/article/6050/Public-Space-Protection-Orders-and-Dog-Free-Beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_ingoldmells_south",
@@ -1380,7 +1466,8 @@
       "on_lead_required": false,
       "notes": "East Lindsey. South Beach explicitly listed as dog-friendly all year by the council.",
       "source_url": "https://www.e-lindsey.gov.uk/article/6050/Public-Space-Protection-Orders-and-Dog-Free-Beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_mablethorpe_town",
@@ -1396,7 +1483,8 @@
       "on_lead_required": true,
       "notes": "East Lindsey PSPO (renewed Nov 2024, valid to 2027). Central Mablethorpe excluded May-Sept. Dogs must be on lead on promenade during ban period.",
       "source_url": "https://www.e-lindsey.gov.uk/article/6050/Public-Space-Protection-Orders-and-Dog-Free-Beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_huttoft_marsh_yard",
@@ -1412,14 +1500,15 @@
       "on_lead_required": false,
       "notes": "East Lindsey. Listed as a dog-friendly beach all year. Previously known as Moggs Eye.",
       "source_url": "https://www.e-lindsey.gov.uk/article/6050/Public-Space-Protection-Orders-and-Dog-Free-Beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_skegness",
       "name": "Skegness Beach",
       "county": "Lincolnshire",
-      "lat": 53.1450,
-      "lng": 0.3370,
+      "lat": 53.145,
+      "lng": 0.337,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
       "restricted_date_end": "09-30",
@@ -1428,13 +1517,14 @@
       "on_lead_required": true,
       "notes": "East Lindsey PSPO (renewed Nov 2024, valid to 2027). Central Skegness excluded May-Sept. Dogs must be on lead on promenade during ban period. Blue Flag condition.",
       "source_url": "https://www.e-lindsey.gov.uk/article/6050/Public-Space-Protection-Orders-and-Dog-Free-Beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_sutton_on_sea",
       "name": "Sutton-on-Sea Beach",
       "county": "Lincolnshire",
-      "lat": 53.3010,
+      "lat": 53.301,
       "lng": 0.2779,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
@@ -1444,13 +1534,14 @@
       "on_lead_required": true,
       "notes": "East Lindsey PSPO (renewed Nov 2024, valid to 2027). Central Sutton-on-Sea excluded May-Sept. Dogs must be on lead on promenade during ban period.",
       "source_url": "https://www.e-lindsey.gov.uk/article/6050/Public-Space-Protection-Orders-and-Dog-Free-Beaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_cleethorpes",
       "name": "Cleethorpes Beach",
       "county": "Lincolnshire",
-      "lat": 53.5560,
+      "lat": 53.556,
       "lng": -0.0263,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "04-18",
@@ -1458,9 +1549,10 @@
       "restricted_time_start": null,
       "restricted_time_end": null,
       "on_lead_required": false,
-      "notes": "North East Lincolnshire PSPO. Restricted area from Wonderland Rock Groyne to Cleethorpes Leisure Centre. Start date is Good Friday (varies annually — 18 Apr 2025 and 2026). Beach between leisure centre and Humberston Fitties unrestricted all year.",
+      "notes": "North East Lincolnshire PSPO. Restricted area from Wonderland Rock Groyne to Cleethorpes Leisure Centre. Start date is Good Friday (varies annually \u2014 18 Apr 2025 and 2026). Beach between leisure centre and Humberston Fitties unrestricted all year.",
       "source_url": "https://www.nelincs.gov.uk/changes-to-dog-walking-comes-into-force-on-cleethorpes-beach/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_lincolnshire_humberston_fitties",
@@ -1476,7 +1568,8 @@
       "on_lead_required": false,
       "notes": "North East Lincolnshire. Dogs welcome all year. Located between Cleethorpes Leisure Centre and the Fitties holiday park area.",
       "source_url": "https://www.nelincs.gov.uk/changes-to-dog-walking-comes-into-force-on-cleethorpes-beach/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_ainsdale",
@@ -1492,7 +1585,8 @@
       "on_lead_required": false,
       "notes": "Sefton Council. Exclusion zone 200m either side of main beach entrance and to the tide line. Rest of beach and dunes dog-friendly. PSPO renewed Apr 2024, valid to Apr 2027.",
       "source_url": "https://www.sefton.gov.uk/environment/pests-pollution-and-food-safety/dogs/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_formby",
@@ -1508,13 +1602,14 @@
       "on_lead_required": false,
       "notes": "Sefton/National Trust. No formal beach ban. Dogs must not enter protected dune pools (Natterjack Toad habitat). Keep away from ground-nesting birds.",
       "source_url": "https://www.sefton.gov.uk/environment/pests-pollution-and-food-safety/dogs/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_southport",
       "name": "Southport Beach",
       "county": "Merseyside",
-      "lat": 53.6490,
+      "lat": 53.649,
       "lng": -3.0072,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
@@ -1524,14 +1619,15 @@
       "on_lead_required": false,
       "notes": "Sefton Council. Exclusion zone from the Pier south towards Pleasureland for 555m and to the tide line. Large remainder of beach unrestricted.",
       "source_url": "https://www.sefton.gov.uk/environment/pests-pollution-and-food-safety/dogs/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_meols",
       "name": "Meols Beach",
       "county": "Merseyside",
       "lat": 53.4088,
-      "lng": -3.1700,
+      "lng": -3.17,
       "restriction_type": "no_restriction",
       "restricted_date_start": null,
       "restricted_date_end": null,
@@ -1540,7 +1636,8 @@
       "on_lead_required": false,
       "notes": "Wirral Borough Council. Proposed seasonal beach ban rejected after public consultation (2018). Dogs welcome all year.",
       "source_url": "https://www.wirral.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_moreton",
@@ -1556,7 +1653,8 @@
       "on_lead_required": false,
       "notes": "Wirral Borough Council. No beach dog ban in place. Dogs welcome all year.",
       "source_url": "https://www.wirral.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_new_brighton_east",
@@ -1572,13 +1670,14 @@
       "on_lead_required": false,
       "notes": "Wirral Borough Council. New 2026 designated bathing water. No beach dog ban in place.",
       "source_url": "https://www.wirral.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_wallasey",
       "name": "Wallasey Beach",
       "county": "Merseyside",
-      "lat": 53.4300,
+      "lat": 53.43,
       "lng": -3.0678,
       "restriction_type": "no_restriction",
       "restricted_date_start": null,
@@ -1588,7 +1687,8 @@
       "on_lead_required": false,
       "notes": "Wirral Borough Council. No beach dog ban in place. Dogs welcome all year.",
       "source_url": "https://www.wirral.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_merseyside_west_kirby",
@@ -1604,7 +1704,8 @@
       "on_lead_required": false,
       "notes": "Wirral Borough Council. No beach dog ban in place. Dogs welcome all year.",
       "source_url": "https://www.wirral.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_swansea_bracelet_bay",
@@ -1620,13 +1721,14 @@
       "on_lead_required": false,
       "notes": "Swansea Council byelaw. Dogs banned from beach 1 May to 30 Sept. Coastal path and promenade accessible. Dogs allowed on leads on promenade.",
       "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_swansea_limeslade_bay",
       "name": "Limeslade Bay",
       "county": "Swansea",
-      "lat": 51.5660,
+      "lat": 51.566,
       "lng": -3.9928,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
@@ -1636,7 +1738,8 @@
       "on_lead_required": false,
       "notes": "Swansea Council byelaw. Dogs banned from beach 1 May to 30 Sept.",
       "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_swansea_langland_bay",
@@ -1652,14 +1755,15 @@
       "on_lead_required": true,
       "notes": "Swansea Council byelaw. Dogs banned from beach 1 May to 30 Sept. Dogs must be on lead on promenade at Langland and Rotherslade year-round.",
       "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_swansea_caswell_bay",
       "name": "Caswell Bay",
       "county": "Swansea",
-      "lat": 51.5740,
-      "lng": -4.0460,
+      "lat": 51.574,
+      "lng": -4.046,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
       "restricted_date_end": "09-30",
@@ -1668,7 +1772,8 @@
       "on_lead_required": true,
       "notes": "Swansea Council byelaw. Dogs banned from beach 1 May to 30 Sept. Dogs must be on lead on promenade year-round.",
       "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_swansea_oxwich_bay",
@@ -1682,9 +1787,10 @@
       "restricted_time_start": null,
       "restricted_time_end": null,
       "on_lead_required": false,
-      "notes": "Swansea Council. Listed as dog-friendly beach all year. Gower AONB — keep dogs under control near wildlife.",
+      "notes": "Swansea Council. Listed as dog-friendly beach all year. Gower AONB \u2014 keep dogs under control near wildlife.",
       "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_swansea_port_eynon_bay",
@@ -1700,7 +1806,8 @@
       "on_lead_required": false,
       "notes": "Swansea Council byelaw. Restricted from main steps west to the Salt House May-Sept. Dog-friendly section at east of beach beyond the restriction zone.",
       "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_swansea_rhossili",
@@ -1716,7 +1823,8 @@
       "on_lead_required": false,
       "notes": "Swansea Council/National Trust. Listed as dog-friendly all year. Keep dogs on leads near Worm's Head and areas with grazing sheep. Gower AONB.",
       "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_llanddwyn",
@@ -1732,7 +1840,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey County Council. One of 7 beaches with seasonal dog exclusion zone. Signs and maps at beach indicate banned area.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_aberffraw",
@@ -1748,7 +1857,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. Not in the 7 beaches with seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_rhosneigr",
@@ -1764,7 +1874,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. Not in the 7 beaches with seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_silver_bay_rhoscolyn",
@@ -1780,7 +1891,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. Not in the 7 beaches with seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_borth_wen",
@@ -1796,7 +1908,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. Not in the 7 beaches with seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_trearddur_bay",
@@ -1812,7 +1925,8 @@
       "on_lead_required": true,
       "notes": "Isle of Anglesey. One of 7 beaches with exclusion zone. Right-hand side of beach (heading from car park) remains dog-friendly. Dogs on lead on promenade May-Sept.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_porth_dafarch",
@@ -1828,7 +1942,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. One of 7 beaches with seasonal exclusion zone. Whole beach currently banned May-Sept; proposed partial lift under 2026 PSPO consultation.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_church_bay",
@@ -1844,14 +1959,15 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. Not in the 7 beaches with seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_cemaes",
       "name": "Cemaes Bay (Traeth Mawr)",
       "county": "Anglesey",
       "lat": 53.4128,
-      "lng": -4.4560,
+      "lng": -4.456,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
       "restricted_date_end": "09-30",
@@ -1860,7 +1976,8 @@
       "on_lead_required": true,
       "notes": "Isle of Anglesey. One of 7 beaches. Traeth Mawr (main Big Beach) restricted May-Sept. Traeth Bach (Little Beach) unrestricted year-round. Dogs on lead on promenade May-Sept.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_traeth_lligwy",
@@ -1876,7 +1993,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. Not in the 7 beaches with seasonal exclusion zones. Dogs welcome all year.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_benllech",
@@ -1892,7 +2010,8 @@
       "on_lead_required": true,
       "notes": "Isle of Anglesey. One of 7 beaches. Exclusion zone covers expanse opposite main car park. Dog-friendly section at far end of promenade. Dogs on lead on promenade May-Sept.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_st_davids_benllech",
@@ -1908,14 +2027,15 @@
       "on_lead_required": true,
       "notes": "Isle of Anglesey. Adjacent to Benllech, same PSPO exclusion zone applies. Dogs on lead on promenade May-Sept.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_anglesey_llanddona",
       "name": "Llanddona Beach",
       "county": "Anglesey",
       "lat": 53.3012,
-      "lng": -4.2250,
+      "lng": -4.225,
       "restriction_type": "prohibited_seasonal",
       "restricted_date_start": "05-01",
       "restricted_date_end": "09-30",
@@ -1924,7 +2044,8 @@
       "on_lead_required": false,
       "notes": "Isle of Anglesey. One of 7 beaches with seasonal exclusion zone. Extensive ban area by surface area.",
       "source_url": "https://www.anglesey.gov.wales/en/Residents/Pests-pollution-dogs-and-food-safety/Dog-control/Dog-restrictions-on-Angleseys-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_conwy_llandudno_north_shore",
@@ -1940,7 +2061,8 @@
       "on_lead_required": false,
       "notes": "Conwy County Borough Council PSPO 2020. Dogs excluded from area between Llandudno Pier and Clarence Road, April 1 to September 30.",
       "source_url": "https://www.conwy.gov.uk/en/Resident/Dogs/Dog-friendly-spaces/Beaches-with-dog-restrictions/Llandudno-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_conwy_llandudno_west_shore",
@@ -1956,14 +2078,15 @@
       "on_lead_required": false,
       "notes": "Conwy PSPO 2020. Dogs excluded between the two stone groynes April-Sept. Large sections either side of groynes remain dog-friendly all year.",
       "source_url": "https://www.conwy.gov.uk/en/Resident/Dogs/Dog-friendly-spaces/Beaches-with-dog-restrictions/Llandudno-beaches.aspx",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_edinburgh_portobello_central",
       "name": "Portobello Central Beach",
       "county": "Edinburgh",
       "lat": 55.9522,
-      "lng": -3.1170,
+      "lng": -3.117,
       "restriction_type": "no_restriction",
       "restricted_date_start": null,
       "restricted_date_end": null,
@@ -1972,7 +2095,8 @@
       "on_lead_required": false,
       "notes": "City of Edinburgh Council. No formal seasonal dog ban in place. Dogs can enjoy the beach off-lead. Please keep dogs under close control on busy summer days. Note: SEPA issues occasional water quality warnings during the bathing season.",
       "source_url": "https://www.edinburgh.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": null
     },
     {
       "id": "gb_edinburgh_portobello_west",
@@ -1988,7 +2112,8 @@
       "on_lead_required": false,
       "notes": "City of Edinburgh Council. No formal seasonal dog ban in place. Dogs welcome all year.",
       "source_url": "https://www.edinburgh.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": null
     },
     {
       "id": "gb_fife_st_andrews_east_sands",
@@ -2004,23 +2129,25 @@
       "on_lead_required": false,
       "notes": "Fife Council. Dogs welcome all year on East Sands. Smaller beach on east side of harbour.",
       "source_url": "https://www.fife.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": null
     },
     {
-  "id": "gb_fife_st_andrews_west_sands",
-  "name": "St Andrews West Sands",
-  "county": "Fife",
-  "lat": 56.3490,
-  "lng": -2.8013,
-  "restriction_type": "prohibited_seasonal",
-  "restricted_date_start": "05-01",
-  "restricted_date_end": "09-30",
-  "restricted_time_start": null,
-  "restricted_time_end": null,
-  "on_lead_required": false,
-  "notes": "Fife Council. Dogs excluded from main section near rock pools and facilities May-Sept. Remainder of beach further from town remains dog-friendly all year. Signage at main entrances marks restricted area. Keep dogs on lead near dunes during bird breeding season (Apr-Jul).",
-  "source_url": "https://www.fife.gov.uk/",
-  "last_verified": "2026-06"
+      "id": "gb_fife_st_andrews_west_sands",
+      "name": "St Andrews West Sands",
+      "county": "Fife",
+      "lat": 56.349,
+      "lng": -2.8013,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Fife Council. Dogs excluded from main section near rock pools and facilities May-Sept. Remainder of beach further from town remains dog-friendly all year. Signage at main entrances marks restricted area. Keep dogs on lead near dunes during bird breeding season (Apr-Jul).",
+      "source_url": "https://www.fife.gov.uk/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
     },
     {
       "id": "gb_east_lothian_north_berwick_milsey_bay",
@@ -2036,7 +2163,8 @@
       "on_lead_required": false,
       "notes": "East Lothian Council confirmed no seasonal dog ban on North Berwick beaches (2021). Dogs welcome all year.",
       "source_url": "https://www.eastlothian.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": null
     },
     {
       "id": "gb_east_lothian_north_berwick_west",
@@ -2052,7 +2180,1997 @@
       "on_lead_required": false,
       "notes": "East Lothian Council. No seasonal dog ban on North Berwick beaches. Dogs welcome all year.",
       "source_url": "https://www.eastlothian.gov.uk/",
-      "last_verified": "2026-06"
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_essex_clacton_central",
+      "name": "Clacton-on-Sea Central Beach",
+      "county": "Essex",
+      "lat": 51.7899,
+      "lng": 1.1553,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Banned from Pier to West Road outfall pipe on Martello Bay, May 1\u2013Sep 30. Holland-on-Sea section remains dog-friendly all year.",
+      "source_url": "https://www.tendringdc.gov.uk/environment/dogs/dog-rules",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_holland_on_sea",
+      "name": "Holland-on-Sea Beach",
+      "county": "Essex",
+      "lat": 51.7959,
+      "lng": 1.1812,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Quieter alternative to Clacton with no seasonal restrictions.",
+      "source_url": "https://www.tendringdc.gov.uk/environment/dogs/dog-rules",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_jaywick",
+      "name": "Jaywick Beach",
+      "county": "Essex",
+      "lat": 51.7795,
+      "lng": 1.1212,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. West of Martello Tower remains dog-friendly year-round.",
+      "source_url": "https://www.tendringdc.gov.uk/environment/dogs/dog-rules",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_frinton_on_sea",
+      "name": "Frinton-on-Sea Beach",
+      "county": "Essex",
+      "lat": 51.8312,
+      "lng": 1.2445,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Warden Station below Connaught Ave to public conveniences below Cambridge Road, May 1\u2013Sep 30.",
+      "source_url": "https://www.essex.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_walton_on_naze",
+      "name": "Walton-on-the-Naze Beach",
+      "county": "Essex",
+      "lat": 51.8512,
+      "lng": 1.2634,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Percival Road to Naze Park Road, May 1\u2013Sep 30. The Naze itself is dog-friendly year-round.",
+      "source_url": "https://www.essex.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_the_naze",
+      "name": "The Naze Beach",
+      "county": "Essex",
+      "lat": 51.8612,
+      "lng": 1.2698,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year on The Naze. Popular dog walking spot with clifftop paths.",
+      "source_url": "https://www.essex.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_southend_three_shells",
+      "name": "Three Shells Beach (Southend)",
+      "county": "Essex",
+      "lat": 51.5312,
+      "lng": 0.7112,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Central Southend beach by the pier.",
+      "source_url": "https://www.southend.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_thorpe_bay",
+      "name": "Thorpe Bay Beach",
+      "county": "Essex",
+      "lat": 51.5289,
+      "lng": 0.7445,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30.",
+      "source_url": "https://www.southend.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_westcliff_bay",
+      "name": "Westcliff Bay Beach",
+      "county": "Essex",
+      "lat": 51.5298,
+      "lng": 0.6812,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30.",
+      "source_url": "https://www.southend.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_shoebury_common",
+      "name": "Shoebury Common Beach",
+      "county": "Essex",
+      "lat": 51.5312,
+      "lng": 0.8012,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30.",
+      "source_url": "https://www.southend.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_margate_main_sands",
+      "name": "Margate Main Sands",
+      "county": "Kent",
+      "lat": 51.3887,
+      "lng": 1.3834,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Thanet District PSPO.",
+      "source_url": "https://www.thanet.gov.uk/info-pages/dogs-on-beaches/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_viking_bay_broadstairs",
+      "name": "Viking Bay Broadstairs",
+      "county": "Kent",
+      "lat": 51.3612,
+      "lng": 1.4398,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Thanet District PSPO.",
+      "source_url": "https://www.thanet.gov.uk/info-pages/dogs-on-beaches/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_botany_bay",
+      "name": "Botany Bay Broadstairs",
+      "county": "Kent",
+      "lat": 51.3812,
+      "lng": 1.4512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "04-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned 10am\u20136pm April 1\u2013Sep 30. Permitted outside these hours. Thanet PSPO.",
+      "source_url": "https://www.thanet.gov.uk/info-pages/dogs-on-beaches/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_dumpton_gap",
+      "name": "Dumpton Gap Beach",
+      "county": "Kent",
+      "lat": 51.3545,
+      "lng": 1.4398,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Between Broadstairs and Ramsgate. Tidal \u2014 check times.",
+      "source_url": "https://seekent.co.uk/dog-friendly-beaches-in-kent/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_kent_kingsgate_bay",
+      "name": "Kingsgate Bay Broadstairs",
+      "county": "Kent",
+      "lat": 51.3856,
+      "lng": 1.4456,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Steep access via steps.",
+      "source_url": "https://seekent.co.uk/dog-friendly-beaches-in-kent/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_kent_ramsgate_main",
+      "name": "Ramsgate Main Sands",
+      "county": "Kent",
+      "lat": 51.3312,
+      "lng": 1.4212,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Thanet District PSPO.",
+      "source_url": "https://www.thanet.gov.uk/info-pages/dogs-on-beaches/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_whitstable",
+      "name": "Whitstable Beach",
+      "county": "Kent",
+      "lat": 51.3612,
+      "lng": 1.0212,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Canterbury City Council. No seasonal ban on main Whitstable beach.",
+      "source_url": "https://www.canterbury.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_kent_herne_bay_central",
+      "name": "Herne Bay Central Beach",
+      "county": "Kent",
+      "lat": 51.3745,
+      "lng": 1.1212,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": true,
+      "notes": "Dogs banned from Herne Bay Pier westwards to Lane End, May 1\u2013Sep 30. Lead required on promenade. Canterbury City Council PSPO.",
+      "source_url": "https://www.canterbury.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_tankerton",
+      "name": "Tankerton Beach Whitstable",
+      "county": "Kent",
+      "lat": 51.3698,
+      "lng": 1.0512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": true,
+      "notes": "Dogs banned level with Pier Avenue West to The Street, May 1\u2013Sep 30. Lead required on promenade. Canterbury City Council PSPO.",
+      "source_url": "https://www.canterbury.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_folkestone_sunny_sands",
+      "name": "Sunny Sands Folkestone",
+      "county": "Kent",
+      "lat": 51.0812,
+      "lng": 1.1912,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Folkestone and Hythe District PSPO.",
+      "source_url": "https://www.folkestone-hythe.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_hythe_beach",
+      "name": "Hythe Beach",
+      "county": "Kent",
+      "lat": 51.0712,
+      "lng": 1.0812,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Twiss Road to St Leonard's Road, May 1\u2013Sep 30. Folkestone and Hythe District PSPO.",
+      "source_url": "https://www.folkestone-hythe.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_shakespeare_beach",
+      "name": "Shakespeare Beach Dover",
+      "county": "Kent",
+      "lat": 51.1112,
+      "lng": 1.2912,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Dover District PSPO. Harder to access \u2014 stays quieter. Shingle beach beneath white cliffs.",
+      "source_url": "https://www.dover.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_kent_walmer",
+      "name": "Walmer Beach Deal",
+      "county": "Kent",
+      "lat": 51.2012,
+      "lng": 1.4012,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Dover District PSPO. Shingle beach. Lead required on promenade.",
+      "source_url": "https://www.dover.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_kent_dymchurch",
+      "name": "Dymchurch Beach",
+      "county": "Kent",
+      "lat": 51.0212,
+      "lng": 0.9912,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Sycamore Gardens to Martello Car Park, May 1\u2013Sep 30. Folkestone and Hythe District PSPO.",
+      "source_url": "https://www.folkestone-hythe.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_kent_greatstone",
+      "name": "Greatstone Beach",
+      "county": "Kent",
+      "lat": 50.9812,
+      "lng": 0.9512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Jolly Fisherman car park area, May 1\u2013Sep 30. Folkestone and Hythe District PSPO. Dog-friendly sections remain at each end.",
+      "source_url": "https://www.folkestone-hythe.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_east_sussex_brighton_central",
+      "name": "Brighton Central Beach",
+      "county": "East Sussex",
+      "lat": 50.8193,
+      "lng": -0.1378,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from central Brighton beach May 1\u2013Sep 30. Permitted Oct\u2013Apr. Brighton & Hove City Council PSPO 2023.",
+      "source_url": "https://www.brighton-hove.gov.uk/travel-and-road-safety/roads-and-highways/dogs-exclusion-public-space-protection-order-pspo-2023",
+      "last_verified": "2026-06",
+      "pspo_expires": "2026-04-01"
+    },
+    {
+      "id": "gb_east_sussex_brighton_east_marina",
+      "name": "Brighton Beach East of Marina",
+      "county": "East Sussex",
+      "lat": 50.8157,
+      "lng": -0.1202,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dog-friendly designated zone east of Brighton Marina to Volks Railway station, May\u2013Sep only. Brighton & Hove PSPO.",
+      "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
+      "last_verified": "2026-06",
+      "pspo_expires": "2026-04-01"
+    },
+    {
+      "id": "gb_east_sussex_hove_meeting_place",
+      "name": "Hove Beach (Meeting Place Caf\u00e9)",
+      "county": "East Sussex",
+      "lat": 50.8279,
+      "lng": -0.1654,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dog-friendly section east of Meeting Place Caf\u00e9 to large groyne, May\u2013Sep only. Brighton & Hove PSPO.",
+      "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
+      "last_verified": "2026-06",
+      "pspo_expires": "2026-04-01"
+    },
+    {
+      "id": "gb_east_sussex_rottingdean",
+      "name": "Rottingdean Beach",
+      "county": "East Sussex",
+      "lat": 50.8108,
+      "lng": -0.0607,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dog-friendly beach with May\u2013Sep restrictions. Check local signage for exact zones. Brighton & Hove PSPO.",
+      "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
+      "last_verified": "2026-06",
+      "pspo_expires": "2026-04-01"
+    },
+    {
+      "id": "gb_east_sussex_saltdean",
+      "name": "Saltdean Beach",
+      "county": "East Sussex",
+      "lat": 50.7999,
+      "lng": -0.0393,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dog-friendly beach with May\u2013Sep restrictions. Brighton & Hove PSPO.",
+      "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
+      "last_verified": "2026-06",
+      "pspo_expires": "2026-04-01"
+    },
+    {
+      "id": "gb_east_sussex_seaford",
+      "name": "Seaford Beach",
+      "county": "East Sussex",
+      "lat": 50.7724,
+      "lng": 0.1005,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned between Edinburgh Road and West View, May 1\u2013Sep 30. Lewes District Council PSPO.",
+      "source_url": "https://www.lewes-eastbourne.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_east_sussex_eastbourne_central",
+      "name": "Eastbourne Beach (Central)",
+      "county": "East Sussex",
+      "lat": 50.7676,
+      "lng": 0.284,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned between Wish Tower and the Pier, May 1\u2013Sep 30. Eastbourne Borough Council PSPO.",
+      "source_url": "https://www.lewes-eastbourne.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_east_sussex_eastbourne_holywell",
+      "name": "Eastbourne Beach (Holywell)",
+      "county": "East Sussex",
+      "lat": 50.7612,
+      "lng": 0.2613,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome at Holywell and Falling Sands year-round under control. Eastbourne Borough Council.",
+      "source_url": "https://www.lewes-eastbourne.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_east_sussex_bexhill",
+      "name": "Bexhill Beach",
+      "county": "East Sussex",
+      "lat": 50.8397,
+      "lng": 0.4739,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Frankie's Beach Caf\u00e9 west to B\u00f6nningstedt Promenade, May 1\u2013Sep 30. Rother District Council PSPO.",
+      "source_url": "https://www.rother.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-04-01"
+    },
+    {
+      "id": "gb_east_sussex_hastings_central",
+      "name": "Hastings Beach (Central)",
+      "county": "East Sussex",
+      "lat": 50.8587,
+      "lng": 0.5766,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "04-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Harbour Arm to Hastings Pier, Apr 1\u2013Sep 30. Hastings Borough Council PSPO.",
+      "source_url": "https://www.hastings.gov.uk/news/latest/dog-pspo/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-04-01"
+    },
+    {
+      "id": "gb_east_sussex_hastings_west",
+      "name": "Hastings Beach (West)",
+      "county": "East Sussex",
+      "lat": 50.8551,
+      "lng": 0.5614,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "04-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Warrior Square to opposite Royal Victoria Hotel, Apr 1\u2013Sep 30. Hastings Borough Council PSPO.",
+      "source_url": "https://www.hastings.gov.uk/news/latest/dog-pspo/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-04-01"
+    },
+    {
+      "id": "gb_west_sussex_worthing_central",
+      "name": "Worthing Beach (Central)",
+      "county": "West Sussex",
+      "lat": 50.8048,
+      "lng": -0.3724,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Splash Point (Warwick Road) to Heene Road, May 1\u2013Sep 30. Worthing Borough Council PSPO.",
+      "source_url": "https://www.adur-worthing.gov.uk/dogs/dog-control/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_west_sussex_goring",
+      "name": "Goring-by-Sea Beach",
+      "county": "West Sussex",
+      "lat": 50.8077,
+      "lng": -0.4328,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned between two boat launch ramps (Seafield Avenue to Worthing Sailing Club), May 1\u2013Sep 30. Worthing Borough Council PSPO.",
+      "source_url": "https://www.adur-worthing.gov.uk/beaches/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_west_sussex_lancing",
+      "name": "Lancing Beach",
+      "county": "West Sussex",
+      "lat": 50.8263,
+      "lng": -0.3196,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome year-round. No seasonal restrictions. Adur District Council.",
+      "source_url": "https://www.adur-worthing.gov.uk/beaches/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_west_sussex_shoreham",
+      "name": "Shoreham Beach",
+      "county": "West Sussex",
+      "lat": 50.8234,
+      "lng": -0.2687,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome year-round. Local Nature Reserve \u2014 keep dogs under control during bird nesting season. Adur District Council.",
+      "source_url": "https://www.adur-worthing.gov.uk/beaches/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_west_sussex_littlehampton_central",
+      "name": "Littlehampton Beach (Central)",
+      "county": "West Sussex",
+      "lat": 50.8063,
+      "lng": -0.5412,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned between East Pier and Norfolk Road, May 1\u2013Sep 30. Arun District Council PSPO 2025.",
+      "source_url": "https://www.arun.gov.uk/news-archive/annual-dog-beach-ban-came-into-force-on-1-may-2025-9639/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-05-01"
+    },
+    {
+      "id": "gb_west_sussex_littlehampton_west",
+      "name": "Littlehampton Beach (West)",
+      "county": "West Sussex",
+      "lat": 50.8049,
+      "lng": -0.5524,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome year-round west of Norfolk Road. Arun District Council.",
+      "source_url": "https://www.arun.gov.uk/news-archive/annual-dog-beach-ban-came-into-force-on-1-may-2025-9639/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-05-01"
+    },
+    {
+      "id": "gb_west_sussex_bognor_central",
+      "name": "Bognor Regis Beach (Central)",
+      "county": "West Sussex",
+      "lat": 50.7826,
+      "lng": -0.6743,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Bognor Sailing Club ramp to Gloucester Road, May 1\u2013Sep 30. Arun District Council PSPO 2025.",
+      "source_url": "https://www.arun.gov.uk/news-archive/annual-dog-beach-ban-came-into-force-on-1-may-2025-9639/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-05-01"
+    },
+    {
+      "id": "gb_west_sussex_bognor_east",
+      "name": "Bognor Regis Beach (East)",
+      "county": "West Sussex",
+      "lat": 50.7798,
+      "lng": -0.6612,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome year-round east of Bognor Sailing Club ramp. Arun District Council.",
+      "source_url": "https://www.arun.gov.uk/news-archive/annual-dog-beach-ban-came-into-force-on-1-may-2025-9639/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-05-01"
+    },
+    {
+      "id": "gb_west_sussex_felpham",
+      "name": "Felpham Beach",
+      "county": "West Sussex",
+      "lat": 50.7868,
+      "lng": -0.6498,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from Canning Road to Felpham Sailing Club, May 1\u2013Sep 30. Arun District Council PSPO 2025.",
+      "source_url": "https://www.arun.gov.uk/news-archive/annual-dog-beach-ban-came-into-force-on-1-may-2025-9639/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-05-01"
+    },
+    {
+      "id": "gb_west_sussex_rustington",
+      "name": "Rustington Beach",
+      "county": "West Sussex",
+      "lat": 50.8021,
+      "lng": -0.5089,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome year-round. No seasonal restrictions. Arun District Council.",
+      "source_url": "https://www.arun.gov.uk/news-archive/annual-dog-beach-ban-came-into-force-on-1-may-2025-9639/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-05-01"
+    },
+    {
+      "id": "gb_west_sussex_pagham",
+      "name": "Pagham Beach",
+      "county": "West Sussex",
+      "lat": 50.7632,
+      "lng": -0.7234,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome year-round. No seasonal restrictions. Arun District Council.",
+      "source_url": "https://www.arun.gov.uk/news-archive/annual-dog-beach-ban-came-into-force-on-1-may-2025-9639/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-05-01"
+    },
+    {
+      "id": "gb_norfolk_wells_next_sea",
+      "name": "Wells-next-the-Sea Beach",
+      "county": "Norfolk",
+      "lat": 52.9612,
+      "lng": 0.8512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions on main beach May\u2013Sep. Dog-friendly sections remain. North Norfolk District Council PSPO.",
+      "source_url": "https://www.north-norfolk.gov.uk/tasks/environmental-protection/where-you-can-and-cant-take-your-dog/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_norfolk_holkham",
+      "name": "Holkham Beach",
+      "county": "Norfolk",
+      "lat": 52.9734,
+      "lng": 0.8012,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year on the vast Holkham sands. Part of Holkham National Nature Reserve. Keep dogs on lead near bird nesting areas.",
+      "source_url": "https://www.holkham.co.uk/estate/holkham-beach",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_norfolk_cromer",
+      "name": "Cromer Beach",
+      "county": "Norfolk",
+      "lat": 52.9312,
+      "lng": 1.2998,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions apply on central Cromer beach. North Norfolk District Council PSPO. Dog-friendly sections either side.",
+      "source_url": "https://www.north-norfolk.gov.uk/tasks/environmental-protection/where-you-can-and-cant-take-your-dog/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_norfolk_sheringham",
+      "name": "Sheringham Beach",
+      "county": "Norfolk",
+      "lat": 52.9412,
+      "lng": 1.2112,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions on central beach May\u2013Sep. North Norfolk District Council PSPO.",
+      "source_url": "https://www.north-norfolk.gov.uk/tasks/environmental-protection/where-you-can-and-cant-take-your-dog/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_norfolk_mundesley",
+      "name": "Mundesley Beach",
+      "county": "Norfolk",
+      "lat": 52.8734,
+      "lng": 1.4312,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": true,
+      "notes": "Dogs banned from promenade section May\u2013Sep but beach itself remains dog-friendly year-round. North Norfolk PSPO.",
+      "source_url": "https://www.north-norfolk.gov.uk/tasks/environmental-protection/where-you-can-and-cant-take-your-dog/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_norfolk_sea_palling",
+      "name": "Sea Palling Beach",
+      "county": "Norfolk",
+      "lat": 52.7934,
+      "lng": 1.5712,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. North Norfolk District Council PSPO.",
+      "source_url": "https://www.north-norfolk.gov.uk/tasks/environmental-protection/where-you-can-and-cant-take-your-dog/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_norfolk_caister",
+      "name": "Caister-on-Sea Beach",
+      "county": "Norfolk",
+      "lat": 52.6512,
+      "lng": 1.7312,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. Great Yarmouth Borough Council PSPO.",
+      "source_url": "https://www.great-yarmouth.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_norfolk_great_yarmouth",
+      "name": "Great Yarmouth Beach",
+      "county": "Norfolk",
+      "lat": 52.6012,
+      "lng": 1.7398,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned from central Great Yarmouth beach May 1\u2013Sep 30. Great Yarmouth Borough Council PSPO.",
+      "source_url": "https://www.great-yarmouth.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-11"
+    },
+    {
+      "id": "gb_suffolk_felixstowe",
+      "name": "Felixstowe Beach",
+      "county": "Suffolk",
+      "lat": 51.9612,
+      "lng": 1.3512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned from central Felixstowe beach May 1\u2013Sep 30. Suffolk Coastal PSPO. Dog-friendly sections at north and south ends.",
+      "source_url": "https://www.eastsuffolk.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_suffolk_aldeburgh",
+      "name": "Aldeburgh Beach",
+      "county": "Suffolk",
+      "lat": 52.1512,
+      "lng": 1.6012,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep on central Aldeburgh beach. East Suffolk PSPO.",
+      "source_url": "https://www.eastsuffolk.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_suffolk_southwold",
+      "name": "Southwold Beach",
+      "county": "Suffolk",
+      "lat": 52.3298,
+      "lng": 1.6834,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep on central Southwold beach. East Suffolk PSPO.",
+      "source_url": "https://www.eastsuffolk.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_suffolk_lowestoft_south",
+      "name": "Lowestoft South Beach",
+      "county": "Suffolk",
+      "lat": 52.4612,
+      "lng": 1.7512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. East Suffolk PSPO.",
+      "source_url": "https://www.eastsuffolk.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_suffolk_covehithe",
+      "name": "Covehithe Beach",
+      "county": "Suffolk",
+      "lat": 52.3612,
+      "lng": 1.6934,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Secluded beach accessed via footpath. Eroding sandstone cliffs.",
+      "source_url": "https://www.eastsuffolk.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_yorkshire_scarborough_north",
+      "name": "Scarborough North Bay Beach",
+      "county": "Yorkshire",
+      "lat": 54.2934,
+      "lng": -0.3912,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned from central North Bay beach May 1\u2013Sep 30. North Yorkshire Council PSPO 2025 (in force Jun 2025, 3-year term).",
+      "source_url": "https://www.northyorks.gov.uk/community-and-volunteering/community-safety/public-space-protection-orders-pspo",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_yorkshire_scarborough_south",
+      "name": "Scarborough South Bay Beach",
+      "county": "Yorkshire",
+      "lat": 54.2712,
+      "lng": -0.3834,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned from central South Bay beach May 1\u2013Sep 30. North Yorkshire Council PSPO 2025.",
+      "source_url": "https://www.northyorks.gov.uk/community-and-volunteering/community-safety/public-space-protection-orders-pspo",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_yorkshire_whitby",
+      "name": "Whitby Beach",
+      "county": "Yorkshire",
+      "lat": 54.4878,
+      "lng": -0.6112,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions on central Whitby beach May\u2013Sep. North Yorkshire Council PSPO 2025.",
+      "source_url": "https://www.northyorks.gov.uk/community-and-volunteering/community-safety/public-space-protection-orders-pspo",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_yorkshire_bridlington_north",
+      "name": "Bridlington North Beach",
+      "county": "Yorkshire",
+      "lat": 54.0934,
+      "lng": -0.1912,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. East Riding of Yorkshire Council PSPO.",
+      "source_url": "https://www.eastriding.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_yorkshire_bridlington_south",
+      "name": "Bridlington South Beach",
+      "county": "Yorkshire",
+      "lat": 54.0812,
+      "lng": -0.1834,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. East Riding of Yorkshire Council PSPO.",
+      "source_url": "https://www.eastriding.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_yorkshire_filey",
+      "name": "Filey Beach",
+      "county": "Yorkshire",
+      "lat": 54.2098,
+      "lng": -0.2912,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep on central Filey beach. North Yorkshire Council PSPO 2025.",
+      "source_url": "https://www.northyorks.gov.uk/community-and-volunteering/community-safety/public-space-protection-orders-pspo",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_yorkshire_robin_hoods_bay",
+      "name": "Robin Hood's Bay Beach",
+      "county": "Yorkshire",
+      "lat": 54.4334,
+      "lng": -0.5312,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Stunning cove beach accessed via steep village path.",
+      "source_url": "https://www.northyorks.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_yorkshire_cayton_bay",
+      "name": "Cayton Bay",
+      "county": "Yorkshire",
+      "lat": 54.2334,
+      "lng": -0.3712,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Sandy beach backed by cliffs. Popular with fossil hunters.",
+      "source_url": "https://www.northyorks.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2028-06-05"
+    },
+    {
+      "id": "gb_northumberland_bamburgh",
+      "name": "Bamburgh Beach",
+      "county": "Northumberland",
+      "lat": 55.6089,
+      "lng": -1.7112,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Sweeping sands with Bamburgh Castle backdrop. One of England's finest beaches. Northumberland County Council.",
+      "source_url": "https://www.northumberland.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_northumberland_embleton_bay",
+      "name": "Embleton Bay",
+      "county": "Northumberland",
+      "lat": 55.5112,
+      "lng": -1.6234,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. National Trust beach with Dunstanburgh Castle views. Keep dogs on lead near dunes.",
+      "source_url": "https://www.northumberland.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_northumberland_seahouses",
+      "name": "Seahouses Beach",
+      "county": "Northumberland",
+      "lat": 55.5812,
+      "lng": -1.6512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions on central Seahouses beach May\u2013Sep. Northumberland County Council PSPO.",
+      "source_url": "https://www.northumberland.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_northumberland_craster",
+      "name": "Craster Beach",
+      "county": "Northumberland",
+      "lat": 55.4712,
+      "lng": -1.5934,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Small harbour village beach. Starting point for Dunstanburgh Castle walk.",
+      "source_url": "https://www.northumberland.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_northumberland_alnmouth",
+      "name": "Alnmouth Beach",
+      "county": "Northumberland",
+      "lat": 55.3912,
+      "lng": -1.6134,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep on central Alnmouth beach. Northumberland PSPO.",
+      "source_url": "https://www.northumberland.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_northumberland_warkworth",
+      "name": "Warkworth Beach",
+      "county": "Northumberland",
+      "lat": 55.3498,
+      "lng": -1.5812,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Long sandy beach with dunes. Keep dogs under control near nesting birds.",
+      "source_url": "https://www.northumberland.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_northumberland_druridge_bay",
+      "name": "Druridge Bay",
+      "county": "Northumberland",
+      "lat": 55.2934,
+      "lng": -1.5512,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year on this 7-mile stretch of beach. Country Park. Keep dogs on lead near nature reserve areas.",
+      "source_url": "https://www.northumberland.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_lancashire_blackpool_central",
+      "name": "Blackpool Central Beach",
+      "county": "Lancashire",
+      "lat": 53.8167,
+      "lng": -3.0534,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned from central Blackpool beach May 1\u2013Sep 30. Blackpool Council PSPO. Dog-friendly sections north and south.",
+      "source_url": "https://www.blackpool.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_lancashire_blackpool_north",
+      "name": "Blackpool North Shore",
+      "county": "Lancashire",
+      "lat": 53.8434,
+      "lng": -3.0534,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year on Blackpool North Shore. Blackpool Council.",
+      "source_url": "https://www.blackpool.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_lancashire_lytham_st_annes",
+      "name": "Lytham St Annes Beach",
+      "county": "Lancashire",
+      "lat": 53.7534,
+      "lng": -2.9812,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions on central beach May\u2013Sep. Fylde Borough Council PSPO.",
+      "source_url": "https://www.fylde.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_lancashire_cleveleys",
+      "name": "Cleveleys Beach",
+      "county": "Lancashire",
+      "lat": 53.8734,
+      "lng": -3.0512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. Wyre Borough Council PSPO.",
+      "source_url": "https://www.wyre.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_lancashire_morecambe",
+      "name": "Morecambe Beach",
+      "county": "Lancashire",
+      "lat": 54.0734,
+      "lng": -2.8712,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions on central Morecambe promenade beach May\u2013Sep. Lancaster City Council PSPO.",
+      "source_url": "https://www.lancaster.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_somerset_weston_super_mare",
+      "name": "Weston-super-Mare Beach",
+      "county": "Somerset",
+      "lat": 51.3445,
+      "lng": -2.9834,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned from central Weston beach May 1\u2013Sep 30. North Somerset Council PSPO. Dog-friendly sections at south end near Uphill.",
+      "source_url": "https://www.n-somerset.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_somerset_burnham_on_sea",
+      "name": "Burnham-on-Sea Beach",
+      "county": "Somerset",
+      "lat": 51.2334,
+      "lng": -3.0012,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep on central beach. Sedgemoor District Council PSPO.",
+      "source_url": "https://www.sedgemoor.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_somerset_minehead",
+      "name": "Minehead Beach",
+      "county": "Somerset",
+      "lat": 51.2034,
+      "lng": -3.4712,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep on central Minehead beach. Somerset West and Taunton PSPO.",
+      "source_url": "https://www.somersetwestandtaunton.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_somerset_watchet",
+      "name": "Watchet Beach",
+      "county": "Somerset",
+      "lat": 51.1834,
+      "lng": -3.3312,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Small harbour beach. No seasonal restrictions.",
+      "source_url": "https://www.somersetwestandtaunton.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_somerset_blue_anchor",
+      "name": "Blue Anchor Beach",
+      "county": "Somerset",
+      "lat": 51.1712,
+      "lng": -3.4012,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Pebble beach with views to Wales. No seasonal restrictions.",
+      "source_url": "https://www.somersetwestandtaunton.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_tenby_north",
+      "name": "Tenby North Beach",
+      "county": "Pembrokeshire",
+      "lat": 51.6734,
+      "lng": -4.7012,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Pembrokeshire County Council PSPO.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_tenby_south",
+      "name": "Tenby South Beach",
+      "county": "Pembrokeshire",
+      "lat": 51.6698,
+      "lng": -4.7034,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Pembrokeshire County Council PSPO.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_barafundle",
+      "name": "Barafundle Bay",
+      "county": "Pembrokeshire",
+      "lat": 51.6212,
+      "lng": -4.9234,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. National Trust beach. No seasonal ban. One of UK's finest beaches.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_broad_haven",
+      "name": "Broad Haven Beach",
+      "county": "Pembrokeshire",
+      "lat": 51.7534,
+      "lng": -5.0934,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Pembrokeshire County Council PSPO.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_newport_sands",
+      "name": "Newport Sands Beach",
+      "county": "Pembrokeshire",
+      "lat": 52.0234,
+      "lng": -4.8512,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Pembrokeshire County Council PSPO.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_whitesands",
+      "name": "Whitesands Bay",
+      "county": "Pembrokeshire",
+      "lat": 51.8934,
+      "lng": -5.2712,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Pembrokeshire County Council PSPO. Blue Flag beach near St David's Head.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_freshwater_west",
+      "name": "Freshwater West Beach",
+      "county": "Pembrokeshire",
+      "lat": 51.6534,
+      "lng": -5.0834,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. National Trust beach. No seasonal ban. Famous surf beach.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_pembrokeshire_saundersfoot",
+      "name": "Saundersfoot Beach",
+      "county": "Pembrokeshire",
+      "lat": 51.7134,
+      "lng": -4.6934,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Pembrokeshire County Council PSPO.",
+      "source_url": "https://www.pembrokeshire.gov.uk/dog-control/summer-beach-bans",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_rhossili",
+      "name": "Rhossili Bay",
+      "county": "Gower",
+      "lat": 51.5634,
+      "lng": -4.2934,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Voted UK's No.1 dog-friendly beach by The Times. Swansea Council \u2014 no seasonal ban. Lead advised near wild ponies on clifftop.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_three_cliffs",
+      "name": "Three Cliffs Bay",
+      "county": "Gower",
+      "lat": 51.5712,
+      "lng": -4.1134,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. One of the most spectacular beaches in the UK. Swansea Council \u2014 no seasonal ban. Lead advised on approach across dunes.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_oxwich_bay",
+      "name": "Oxwich Bay",
+      "county": "Gower",
+      "lat": 51.5534,
+      "lng": -4.1512,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. 2.5 mile beach backed by National Nature Reserve dunes. Swansea Council \u2014 no seasonal ban.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_port_eynon",
+      "name": "Port Eynon Beach",
+      "county": "Gower",
+      "lat": 51.5412,
+      "lng": -4.2112,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from main steps east towards Horton, May 1\u2013Sep 30. Dog-friendly section west of steps past old salt house ruins. Swansea Council PSPO.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_caswell_bay",
+      "name": "Caswell Bay",
+      "county": "Gower",
+      "lat": 51.5698,
+      "lng": -3.9934,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Swansea Council PSPO. Nearby Brandy Cove remains dog-friendly year-round.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_llangennith",
+      "name": "Llangennith Beach",
+      "county": "Gower",
+      "lat": 51.5912,
+      "lng": -4.2812,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Merges with Rhossili Bay at low tide. Popular surf beach. Swansea Council \u2014 no seasonal ban.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_horton",
+      "name": "Horton Beach",
+      "county": "Gower",
+      "lat": 51.5489,
+      "lng": -4.2134,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned east of lifeguard station towards Oxwich, May 1\u2013Sep 30. Dog-friendly section from lifeguard station west. Swansea Council PSPO.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_gower_swansea_bay_central",
+      "name": "Swansea Bay (Central)",
+      "county": "Gower",
+      "lat": 51.6089,
+      "lng": -3.9312,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": true,
+      "notes": "Dogs banned from River Tawe to slip opposite Victoria Park, May 1\u2013Sep 30. Lead required on entire promenade year-round. Swansea Council PSPO.",
+      "source_url": "https://www.swansea.gov.uk/dogsonbeaches",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_cumbria_st_bees",
+      "name": "St Bees Beach",
+      "county": "Cumbria",
+      "lat": 54.4934,
+      "lng": -3.6112,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. No seasonal restrictions. Dramatic red sandstone cliffs. Starting point of Coast to Coast Walk. Cumbria Council PSPO.",
+      "source_url": "https://wildpackcollective.com/wild-shores-sandy-paws-dog-friendly-beaches-in-cumbria/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_cumbria_silecroft",
+      "name": "Silecroft Beach",
+      "county": "Cumbria",
+      "lat": 54.2134,
+      "lng": -3.3812,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. No restrictions. Vast expanse of sand at low tide beneath Black Combe Fell. Cumbria Council PSPO.",
+      "source_url": "https://wildpackcollective.com/wild-shores-sandy-paws-dog-friendly-beaches-in-cumbria/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_cumbria_silloth",
+      "name": "Silloth Beach",
+      "county": "Cumbria",
+      "lat": 54.8712,
+      "lng": -3.3934,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. No restrictions. Victorian seaside resort on Solway Firth with views to Scotland. Cumbria Council PSPO.",
+      "source_url": "https://dogsonthebeach.co.uk/beaches/silloth-beach/",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_cumbria_allonby",
+      "name": "Allonby Beach",
+      "county": "Cumbria",
+      "lat": 54.7534,
+      "lng": -3.4212,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. No restrictions. 5-mile stretch on Solway Coast AONB. Cumbria Council PSPO.",
+      "source_url": "https://www.thebeachguide.co.uk/north-west-england/cumbria/dogs-allowed",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_cumbria_seascale",
+      "name": "Seascale Beach",
+      "county": "Cumbria",
+      "lat": 54.4012,
+      "lng": -3.4812,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. No restrictions. Long flat beach with views to Isle of Man. Cumbria Council PSPO.",
+      "source_url": "https://www.thebeachguide.co.uk/north-west-england/cumbria/dogs-allowed",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_durham_seaham",
+      "name": "Seaham Beach",
+      "county": "County Durham",
+      "lat": 54.8398,
+      "lng": -1.3298,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep on central Seaham beach. Durham County Council PSPO. Famous sea glass beach.",
+      "source_url": "https://www.durham.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_durham_crimdon",
+      "name": "Crimdon Beach",
+      "county": "County Durham",
+      "lat": 54.7234,
+      "lng": -1.2698,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. Durham County Council PSPO. Sandy beach with dune system.",
+      "source_url": "https://www.durham.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_east_sussex_camber_sands",
+      "name": "Camber Sands",
+      "county": "East Sussex",
+      "lat": 50.9112,
+      "lng": 0.7998,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs banned from main beach area May 1\u2013Sep 30, 10am\u20136pm. Rother District Council PSPO. Dog-friendly sections at far east and west ends of beach. Famous for vast dunes.",
+      "source_url": "https://www.rother.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-04-01"
+    },
+    {
+      "id": "gb_essex_mersea_island",
+      "name": "Mersea Island Beach",
+      "county": "Essex",
+      "lat": 51.7834,
+      "lng": 0.9012,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. West Mersea Beach on island accessed via The Strood causeway. No seasonal restrictions. Colchester City Council.",
+      "source_url": "https://www.thebeachguide.co.uk/south-east-england/essex/dogs-allowed",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_essex_dovercourt",
+      "name": "Dovercourt Bay Beach",
+      "county": "Essex",
+      "lat": 51.9312,
+      "lng": 1.2812,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "10:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Seasonal restrictions May\u2013Sep. Tendring District Council PSPO. Near Harwich.",
+      "source_url": "https://www.tendringdc.gov.uk",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01"
+    },
+    {
+      "id": "gb_scotland_st_andrews_east",
+      "name": "St Andrews East Sands",
+      "county": "Fife",
+      "lat": 56.3382,
+      "lng": -2.7805,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Fife Council. No seasonal ban.",
+      "source_url": "https://www.fife.gov.uk/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_scotland_crail",
+      "name": "Crail Beach",
+      "county": "Fife",
+      "lat": 56.2534,
+      "lng": -2.6312,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Charming East Neuk fishing village beach. Fife Council \u2014 no restrictions.",
+      "source_url": "https://www.fife.gov.uk/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_scotland_aberdour",
+      "name": "Aberdour Silver Sands",
+      "county": "Fife",
+      "lat": 56.0534,
+      "lng": -3.3012,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Blue Flag beach. Fife Council \u2014 no restrictions.",
+      "source_url": "https://www.fife.gov.uk/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_scotland_gullane",
+      "name": "Gullane Bents Beach",
+      "county": "East Lothian",
+      "lat": 56.0312,
+      "lng": -2.8312,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. East Lothian Council \u2014 no seasonal ban. Popular dog walking beach near Muirfield Golf Course.",
+      "source_url": "https://www.eastlothian.gov.uk/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_scotland_yellowcraig",
+      "name": "Yellowcraig Beach",
+      "county": "East Lothian",
+      "lat": 56.0534,
+      "lng": -2.7812,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. East Lothian Council \u2014 no seasonal ban. Views to Fidra Island (inspiration for Treasure Island).",
+      "source_url": "https://www.eastlothian.gov.uk/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_scotland_longniddry",
+      "name": "Longniddry Bents",
+      "county": "East Lothian",
+      "lat": 55.9812,
+      "lng": -2.8934,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. East Lothian Council \u2014 no seasonal ban. Vast beach with dunes and woodland walks.",
+      "source_url": "https://www.eastlothian.gov.uk/",
+      "last_verified": "2026-06",
+      "pspo_expires": null
     }
   ]
 }
