@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "last_updated": "2026-06-28",
     "coverage": [
       "Anglesey",
@@ -2623,7 +2623,7 @@
       "notes": "Dogs banned from central Brighton beach May 1\u2013Sep 30. Permitted Oct\u2013Apr. Brighton & Hove City Council PSPO 2023.",
       "source_url": "https://www.brighton-hove.gov.uk/travel-and-road-safety/roads-and-highways/dogs-exclusion-public-space-protection-order-pspo-2023",
       "last_verified": "2026-06",
-      "pspo_expires": "2026-04-01"
+      "pspo_expires": "2026-10-19"
     },
     {
       "id": "gb_east_sussex_brighton_east_marina",
@@ -2640,7 +2640,7 @@
       "notes": "Dog-friendly designated zone east of Brighton Marina to Volks Railway station, May\u2013Sep only. Brighton & Hove PSPO.",
       "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
       "last_verified": "2026-06",
-      "pspo_expires": "2026-04-01"
+      "pspo_expires": "2026-10-19"
     },
     {
       "id": "gb_east_sussex_hove_meeting_place",
@@ -2657,7 +2657,7 @@
       "notes": "Dog-friendly section east of Meeting Place Caf\u00e9 to large groyne, May\u2013Sep only. Brighton & Hove PSPO.",
       "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
       "last_verified": "2026-06",
-      "pspo_expires": "2026-04-01"
+      "pspo_expires": "2026-10-19"
     },
     {
       "id": "gb_east_sussex_rottingdean",
@@ -2674,7 +2674,7 @@
       "notes": "Dog-friendly beach with May\u2013Sep restrictions. Check local signage for exact zones. Brighton & Hove PSPO.",
       "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
       "last_verified": "2026-06",
-      "pspo_expires": "2026-04-01"
+      "pspo_expires": "2026-10-19"
     },
     {
       "id": "gb_east_sussex_saltdean",
@@ -2691,7 +2691,7 @@
       "notes": "Dog-friendly beach with May\u2013Sep restrictions. Brighton & Hove PSPO.",
       "source_url": "https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/dog-friendly-beaches",
       "last_verified": "2026-06",
-      "pspo_expires": "2026-04-01"
+      "pspo_expires": "2026-10-19"
     },
     {
       "id": "gb_east_sussex_seaford",
