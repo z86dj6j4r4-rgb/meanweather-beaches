@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MeanWeather Beach Data//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a17e87e-957c-42f8-a61a-99c49bd67696@meanweather-beaches
+DTSTAMP:20260721T123418Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261005
+SUMMARY:⚠️ MeanWeather PSPO Check — 5 beach(es) due 2026-10-19
+DESCRIPTION:The following beach PSPO(s) expire on 2026-10-19:\n\n• Brighton Central Beach (East Sussex)\n• Brighton Beach East of Marina (East Sussex)\n• Hove Beach (Meeting Place Café) (East Sussex)\n• Rottingdean Beach (East Sussex)\n• Saltdean Beach (East Sussex)\n\nAction: Visit each council website to verify current restrictions and update beaches.json + pspo_expires dates.\n\nRun: python3 update_beaches.py
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:⚠️ MeanWeather PSPO Check — 5 beach(es) due 2026-10-19
+END:VALARM
+END:VEVENT
+END:VCALENDAR

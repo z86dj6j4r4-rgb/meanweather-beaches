@@ -1,0 +1,162 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MeanWeather Beach Data//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:864fa9c5-acf7-497e-b212-39ef6f08e8cf@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261008
+SUMMARY:🏖 PSPO 3-month warning: 10 beach(es) expire 31 December 2026
+DESCRIPTION:PSPO expiry 3-month warning — expires 31 December 2026\n\nBeaches to verify:\n• Durdle Door Beach (Dorset)\n• Lulworth Cove (Dorset)\n• West Bay Beach (Dorset)\n• Charmouth Beach East (Dorset)\n• Burton Bradstock Beach (Dorset)\n• Lyme Regis Front Beach (Dorset)\n• Monmouth Beach (Dorset)\n• Cogden Beach (Dorset)\n• Studland Beach (Dorset)\n• Church Cliff Beach (Dorset)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO 3-month warning: 10 beach(es) expire 31 December 2026
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f26882a5-51ca-4285-a79c-fd7e0a9437e7@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261217
+SUMMARY:🏖 PSPO Final reminder: 10 beach(es) expire 31 December 2026
+DESCRIPTION:PSPO expiry Final reminder — expires 31 December 2026\n\nBeaches to verify:\n• Durdle Door Beach (Dorset)\n• Lulworth Cove (Dorset)\n• West Bay Beach (Dorset)\n• Charmouth Beach East (Dorset)\n• Burton Bradstock Beach (Dorset)\n• Lyme Regis Front Beach (Dorset)\n• Monmouth Beach (Dorset)\n• Cogden Beach (Dorset)\n• Studland Beach (Dorset)\n• Church Cliff Beach (Dorset)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO Final reminder: 10 beach(es) expire 31 December 2026
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e414878e-7955-4fd9-bfc9-37044f35b9fd@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270107
+SUMMARY:🏖 PSPO 3-month warning: 4 beach(es) expire 1 April 2027
+DESCRIPTION:PSPO expiry 3-month warning — expires 1 April 2027\n\nBeaches to verify:\n• Bexhill Beach (East Sussex)\n• Hastings Beach (Central) (East Sussex)\n• Hastings Beach (West) (East Sussex)\n• Camber Sands (East Sussex)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO 3-month warning: 4 beach(es) expire 1 April 2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:50d8d061-914a-40e6-a465-9200b97ef616@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270318
+SUMMARY:🏖 PSPO Final reminder: 4 beach(es) expire 1 April 2027
+DESCRIPTION:PSPO expiry Final reminder — expires 1 April 2027\n\nBeaches to verify:\n• Bexhill Beach (East Sussex)\n• Hastings Beach (Central) (East Sussex)\n• Hastings Beach (West) (East Sussex)\n• Camber Sands (East Sussex)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO Final reminder: 4 beach(es) expire 1 April 2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:63563fe4-1943-4386-bdac-e78ed13ed6b6@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270206
+SUMMARY:🏖 PSPO 3-month warning: 156 beach(es) expire 1 May 2027
+DESCRIPTION:PSPO expiry 3-month warning — expires 1 May 2027\n\nBeaches to verify:\n• Croyde Bay Beach (Devon)\n• Combe Martin Beach (Devon)\n• Woolacombe Beach (Devon)\n• Westward Ho! Beach (Devon)\n• Saunton Sands (Devon)\n• Paignton Sands (Devon)\n• Torre Abbey Sands (Devon)\n• Oddicombe Beach (Devon)\n• Babbacombe Beach (Devon)\n• Bigbury-on-Sea Main Beach (Devon)\n• Bigbury-on-Sea West Beach (Devon)\n• Goodrington Sands North (Devon)\n• Sidmouth Beach (Devon)\n• Budleigh Salterton Beach (Devon)\n• Exmouth Beach (Devon)\n• Hill Head Beach (Hampshire)\n• Lee-on-the-Solent Beach (Hampshire)\n• Stokes Bay (Hampshire)\n• Hayling Island Eastoke Beach (Hampshire)\n• Hayling Island Beachlands Central (Hampshire)\n• Hayling Island Beachlands West (Hampshire)\n• Calshot Beach (Hampshire)\n• Christchurch Bay (Highcliffe) (Hampshire)\n• Lepe Beach (Hampshire)\n• Milford-on-Sea Beach (Hampshire)\n• Eastney Beach (Hampshire)\n• Southsea East Beach (Hampshire)\n• Bembridge Beach (Isle of Wight)\n• Colwell Bay (Isle of Wight)\n• Compton Bay (Isle of Wight)\n• Cowes Beach (Isle of Wight)\n• East Cowes Beach (Isle of Wight)\n• Gurnard Beach (Isle of Wight)\n• Ryde Beach (Isle of Wight)\n• Sandown Beach (Isle of Wight)\n• Seagrove Bay (Isle of Wight)\n• Shanklin Beach (Isle of Wight)\n• St Helens Beach (Isle of Wight)\n• Totland Bay (Isle of Wight)\n• Ventnor Beach (Isle of Wight)\n• Whitecliff Bay (Isle of Wight)\n• Yaverland Beach (Isle of Wight)\n• Anderby Creek Beach (Lincolnshire)\n• Chapel St Leonards Beach (Lincolnshire)\n• Ingoldmells South Beach (Lincolnshire)\n• Mablethorpe Town Beach (Lincolnshire)\n• Huttoft and Marsh Yard Beach (Lincolnshire)\n• Skegness Beach (Lincolnshire)\n• Sutton-on-Sea Beach (Lincolnshire)\n• Cleethorpes Beach (Lincolnshire)\n• Humberston Fitties Beach (Lincolnshire)\n• Ainsdale Beach (Merseyside)\n• Formby Beach (Merseyside)\n• Southport Beach (Merseyside)\n• Meols Beach (Merseyside)\n• Moreton Beach (Merseyside)\n• New Brighton Beach East (Merseyside)\n• Wallasey Beach (Merseyside)\n• West Kirby Beach (Merseyside)\n• Bracelet Bay (Swansea)\n• Limeslade Bay (Swansea)\n• Langland Bay (Swansea)\n• Caswell Bay (Swansea)\n• Oxwich Bay (Swansea)\n• Port Eynon Bay (Swansea)\n• Rhossili Bay (Swansea)\n• Llanddwyn Beach (Newborough) (Anglesey)\n• Aberffraw Beach (Anglesey)\n• Rhosneigr Beach (Anglesey)\n• Silver Bay (Rhoscolyn) (Anglesey)\n• Borth Wen (Rhoscolyn) (Anglesey)\n• Trearddur Bay (Anglesey)\n• Porth Dafarch (Anglesey)\n• Church Bay (Porth Swtan) (Anglesey)\n• Cemaes Bay (Traeth Mawr) (Anglesey)\n• Traeth Lligwy (Anglesey)\n• Benllech Beach (Anglesey)\n• St Davids Beach (Benllech area) (Anglesey)\n• Llanddona Beach (Anglesey)\n• Llandudno North Shore Beach (Conwy)\n• Llandudno West Shore Beach (Conwy)\n• St Andrews West Sands (Fife)\n• Clacton-on-Sea Central Beach (Essex)\n• Holland-on-Sea Beach (Essex)\n• Jaywick Beach (Essex)\n• Frinton-on-Sea Beach (Essex)\n• Walton-on-the-Naze Beach (Essex)\n• The Naze Beach (Essex)\n• Three Shells Beach (Southend) (Essex)\n• Thorpe Bay Beach (Essex)\n• Westcliff Bay Beach (Essex)\n• Shoebury Common Beach (Essex)\n• Margate Main Sands (Kent)\n• Viking Bay Broadstairs (Kent)\n• Botany Bay Broadstairs (Kent)\n• Ramsgate Main Sands (Kent)\n• Herne Bay Central Beach (Kent)\n• Tankerton Beach Whitstable (Kent)\n• Sunny Sands Folkestone (Kent)\n• Hythe Beach (Kent)\n• Dymchurch Beach (Kent)\n• Greatstone Beach (Kent)\n• Seaford Beach (East Sussex)\n• Eastbourne Beach (Central) (East Sussex)\n• Eastbourne Beach (Holywell) (East Sussex)\n• Worthing Beach (Central) (West Sussex)\n• Goring-by-Sea Beach (West Sussex)\n• Lancing Beach (West Sussex)\n• Shoreham Beach (West Sussex)\n• Felixstowe Beach (Suffolk)\n• Aldeburgh Beach (Suffolk)\n• Southwold Beach (Suffolk)\n• Lowestoft South Beach (Suffolk)\n• Covehithe Beach (Suffolk)\n• Bamburgh Beach (Northumberland)\n• Embleton Bay (Northumberland)\n• Seahouses Beach (Northumberland)\n• Craster Beach (Northumberland)\n• Alnmouth Beach (Northumberland)\n• Warkworth Beach (Northumberland)\n• Druridge Bay (Northumberland)\n• Blackpool Central Beach (Lancashire)\n• Blackpool North Shore (Lancashire)\n• Lytham St Annes Beach (Lancashire)\n• Cleveleys Beach (Lancashire)\n• Morecambe Beach (Lancashire)\n• Weston-super-Mare Beach (Somerset)\n• Burnham-on-Sea Beach (Somerset)\n• Minehead Beach (Somerset)\n• Watchet Beach (Somerset)\n• Blue Anchor Beach (Somerset)\n• Tenby North Beach (Pembrokeshire)\n• Tenby South Beach (Pembrokeshire)\n• Barafundle Bay (Pembrokeshire)\n• Broad Haven Beach (Pembrokeshire)\n• Newport Sands Beach (Pembrokeshire)\n• Whitesands Bay (Pembrokeshire)\n• Freshwater West Beach (Pembrokeshire)\n• Saundersfoot Beach (Pembrokeshire)\n• Rhossili Bay (Gower)\n• Three Cliffs Bay (Gower)\n• Oxwich Bay (Gower)\n• Port Eynon Beach (Gower)\n• Caswell Bay (Gower)\n• Llangennith Beach (Gower)\n• Horton Beach (Gower)\n• Swansea Bay (Central) (Gower)\n• St Bees Beach (Cumbria)\n• Silecroft Beach (Cumbria)\n• Silloth Beach (Cumbria)\n• Allonby Beach (Cumbria)\n• Seascale Beach (Cumbria)\n• Seaham Beach (County Durham)\n• Crimdon Beach (County Durham)\n• Mersea Island Beach (Essex)\n• Dovercourt Bay Beach (Essex)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO 3-month warning: 156 beach(es) expire 1 May 2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:234e1070-39e3-4877-916b-4d7050e86f8d@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270417
+SUMMARY:🏖 PSPO Final reminder: 156 beach(es) expire 1 May 2027
+DESCRIPTION:PSPO expiry Final reminder — expires 1 May 2027\n\nBeaches to verify:\n• Croyde Bay Beach (Devon)\n• Combe Martin Beach (Devon)\n• Woolacombe Beach (Devon)\n• Westward Ho! Beach (Devon)\n• Saunton Sands (Devon)\n• Paignton Sands (Devon)\n• Torre Abbey Sands (Devon)\n• Oddicombe Beach (Devon)\n• Babbacombe Beach (Devon)\n• Bigbury-on-Sea Main Beach (Devon)\n• Bigbury-on-Sea West Beach (Devon)\n• Goodrington Sands North (Devon)\n• Sidmouth Beach (Devon)\n• Budleigh Salterton Beach (Devon)\n• Exmouth Beach (Devon)\n• Hill Head Beach (Hampshire)\n• Lee-on-the-Solent Beach (Hampshire)\n• Stokes Bay (Hampshire)\n• Hayling Island Eastoke Beach (Hampshire)\n• Hayling Island Beachlands Central (Hampshire)\n• Hayling Island Beachlands West (Hampshire)\n• Calshot Beach (Hampshire)\n• Christchurch Bay (Highcliffe) (Hampshire)\n• Lepe Beach (Hampshire)\n• Milford-on-Sea Beach (Hampshire)\n• Eastney Beach (Hampshire)\n• Southsea East Beach (Hampshire)\n• Bembridge Beach (Isle of Wight)\n• Colwell Bay (Isle of Wight)\n• Compton Bay (Isle of Wight)\n• Cowes Beach (Isle of Wight)\n• East Cowes Beach (Isle of Wight)\n• Gurnard Beach (Isle of Wight)\n• Ryde Beach (Isle of Wight)\n• Sandown Beach (Isle of Wight)\n• Seagrove Bay (Isle of Wight)\n• Shanklin Beach (Isle of Wight)\n• St Helens Beach (Isle of Wight)\n• Totland Bay (Isle of Wight)\n• Ventnor Beach (Isle of Wight)\n• Whitecliff Bay (Isle of Wight)\n• Yaverland Beach (Isle of Wight)\n• Anderby Creek Beach (Lincolnshire)\n• Chapel St Leonards Beach (Lincolnshire)\n• Ingoldmells South Beach (Lincolnshire)\n• Mablethorpe Town Beach (Lincolnshire)\n• Huttoft and Marsh Yard Beach (Lincolnshire)\n• Skegness Beach (Lincolnshire)\n• Sutton-on-Sea Beach (Lincolnshire)\n• Cleethorpes Beach (Lincolnshire)\n• Humberston Fitties Beach (Lincolnshire)\n• Ainsdale Beach (Merseyside)\n• Formby Beach (Merseyside)\n• Southport Beach (Merseyside)\n• Meols Beach (Merseyside)\n• Moreton Beach (Merseyside)\n• New Brighton Beach East (Merseyside)\n• Wallasey Beach (Merseyside)\n• West Kirby Beach (Merseyside)\n• Bracelet Bay (Swansea)\n• Limeslade Bay (Swansea)\n• Langland Bay (Swansea)\n• Caswell Bay (Swansea)\n• Oxwich Bay (Swansea)\n• Port Eynon Bay (Swansea)\n• Rhossili Bay (Swansea)\n• Llanddwyn Beach (Newborough) (Anglesey)\n• Aberffraw Beach (Anglesey)\n• Rhosneigr Beach (Anglesey)\n• Silver Bay (Rhoscolyn) (Anglesey)\n• Borth Wen (Rhoscolyn) (Anglesey)\n• Trearddur Bay (Anglesey)\n• Porth Dafarch (Anglesey)\n• Church Bay (Porth Swtan) (Anglesey)\n• Cemaes Bay (Traeth Mawr) (Anglesey)\n• Traeth Lligwy (Anglesey)\n• Benllech Beach (Anglesey)\n• St Davids Beach (Benllech area) (Anglesey)\n• Llanddona Beach (Anglesey)\n• Llandudno North Shore Beach (Conwy)\n• Llandudno West Shore Beach (Conwy)\n• St Andrews West Sands (Fife)\n• Clacton-on-Sea Central Beach (Essex)\n• Holland-on-Sea Beach (Essex)\n• Jaywick Beach (Essex)\n• Frinton-on-Sea Beach (Essex)\n• Walton-on-the-Naze Beach (Essex)\n• The Naze Beach (Essex)\n• Three Shells Beach (Southend) (Essex)\n• Thorpe Bay Beach (Essex)\n• Westcliff Bay Beach (Essex)\n• Shoebury Common Beach (Essex)\n• Margate Main Sands (Kent)\n• Viking Bay Broadstairs (Kent)\n• Botany Bay Broadstairs (Kent)\n• Ramsgate Main Sands (Kent)\n• Herne Bay Central Beach (Kent)\n• Tankerton Beach Whitstable (Kent)\n• Sunny Sands Folkestone (Kent)\n• Hythe Beach (Kent)\n• Dymchurch Beach (Kent)\n• Greatstone Beach (Kent)\n• Seaford Beach (East Sussex)\n• Eastbourne Beach (Central) (East Sussex)\n• Eastbourne Beach (Holywell) (East Sussex)\n• Worthing Beach (Central) (West Sussex)\n• Goring-by-Sea Beach (West Sussex)\n• Lancing Beach (West Sussex)\n• Shoreham Beach (West Sussex)\n• Felixstowe Beach (Suffolk)\n• Aldeburgh Beach (Suffolk)\n• Southwold Beach (Suffolk)\n• Lowestoft South Beach (Suffolk)\n• Covehithe Beach (Suffolk)\n• Bamburgh Beach (Northumberland)\n• Embleton Bay (Northumberland)\n• Seahouses Beach (Northumberland)\n• Craster Beach (Northumberland)\n• Alnmouth Beach (Northumberland)\n• Warkworth Beach (Northumberland)\n• Druridge Bay (Northumberland)\n• Blackpool Central Beach (Lancashire)\n• Blackpool North Shore (Lancashire)\n• Lytham St Annes Beach (Lancashire)\n• Cleveleys Beach (Lancashire)\n• Morecambe Beach (Lancashire)\n• Weston-super-Mare Beach (Somerset)\n• Burnham-on-Sea Beach (Somerset)\n• Minehead Beach (Somerset)\n• Watchet Beach (Somerset)\n• Blue Anchor Beach (Somerset)\n• Tenby North Beach (Pembrokeshire)\n• Tenby South Beach (Pembrokeshire)\n• Barafundle Bay (Pembrokeshire)\n• Broad Haven Beach (Pembrokeshire)\n• Newport Sands Beach (Pembrokeshire)\n• Whitesands Bay (Pembrokeshire)\n• Freshwater West Beach (Pembrokeshire)\n• Saundersfoot Beach (Pembrokeshire)\n• Rhossili Bay (Gower)\n• Three Cliffs Bay (Gower)\n• Oxwich Bay (Gower)\n• Port Eynon Beach (Gower)\n• Caswell Bay (Gower)\n• Llangennith Beach (Gower)\n• Horton Beach (Gower)\n• Swansea Bay (Central) (Gower)\n• St Bees Beach (Cumbria)\n• Silecroft Beach (Cumbria)\n• Silloth Beach (Cumbria)\n• Allonby Beach (Cumbria)\n• Seascale Beach (Cumbria)\n• Seaham Beach (County Durham)\n• Crimdon Beach (County Durham)\n• Mersea Island Beach (Essex)\n• Dovercourt Bay Beach (Essex)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO Final reminder: 156 beach(es) expire 1 May 2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:77520144-6a8f-4bab-b687-05203a841a56@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20280207
+DTEND;VALUE=DATE:20280207
+SUMMARY:🏖 PSPO 3-month warning: 36 beach(es) expire 1 May 2028
+DESCRIPTION:PSPO expiry 3-month warning — expires 1 May 2028\n\nBeaches to verify:\n• Cadgwith Cove (Cornwall)\n• Carbis Bay Beach (Cornwall)\n• Carnsew Pool (Cornwall)\n• Castle Beach (Cornwall)\n• Cawsand Beach (Cornwall)\n• Chapel Porth Beach (Cornwall)\n• Church Cove (Cornwall)\n• Copperhouse Pool (Cornwall)\n• Crackington Haven (Cornwall)\n• Crooklets Beach (Cornwall)\n• Gyllyngvase Beach (Cornwall)\n• Hayle Towans to Godrevy Point (Cornwall)\n• Hayle Estuary (Cornwall)\n• Hoodny Beach (Cornwall)\n• Housel Bay (Cornwall)\n• Perranporth Beach (Cornwall)\n• Polzeath Beach (Cornwall)\n• Porthmeor Beach (Cornwall)\n• Porthminster Beach (Cornwall)\n• Porthmissen / Trevone Beach (Cornwall)\n• Porthtowan Beach (Cornwall)\n• Sennen Cove Beach (Cornwall)\n• Summerleaze Beach (Cornwall)\n• Widemouth Bay Beach (Cornwall)\n• Fistral Beach (Cornwall)\n• Watergate Bay (Cornwall)\n• Porthcurno Beach (Cornwall)\n• Kynance Cove (Cornwall)\n• Charlestown Beach (Cornwall)\n• Littlehampton Beach (Central) (West Sussex)\n• Littlehampton Beach (West) (West Sussex)\n• Bognor Regis Beach (Central) (West Sussex)\n• Bognor Regis Beach (East) (West Sussex)\n• Felpham Beach (West Sussex)\n• Rustington Beach (West Sussex)\n• Pagham Beach (West Sussex)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO 3-month warning: 36 beach(es) expire 1 May 2028
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a85a378-ef80-417a-8205-694ec0c9a9fc@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280417
+SUMMARY:🏖 PSPO Final reminder: 36 beach(es) expire 1 May 2028
+DESCRIPTION:PSPO expiry Final reminder — expires 1 May 2028\n\nBeaches to verify:\n• Cadgwith Cove (Cornwall)\n• Carbis Bay Beach (Cornwall)\n• Carnsew Pool (Cornwall)\n• Castle Beach (Cornwall)\n• Cawsand Beach (Cornwall)\n• Chapel Porth Beach (Cornwall)\n• Church Cove (Cornwall)\n• Copperhouse Pool (Cornwall)\n• Crackington Haven (Cornwall)\n• Crooklets Beach (Cornwall)\n• Gyllyngvase Beach (Cornwall)\n• Hayle Towans to Godrevy Point (Cornwall)\n• Hayle Estuary (Cornwall)\n• Hoodny Beach (Cornwall)\n• Housel Bay (Cornwall)\n• Perranporth Beach (Cornwall)\n• Polzeath Beach (Cornwall)\n• Porthmeor Beach (Cornwall)\n• Porthminster Beach (Cornwall)\n• Porthmissen / Trevone Beach (Cornwall)\n• Porthtowan Beach (Cornwall)\n• Sennen Cove Beach (Cornwall)\n• Summerleaze Beach (Cornwall)\n• Widemouth Bay Beach (Cornwall)\n• Fistral Beach (Cornwall)\n• Watergate Bay (Cornwall)\n• Porthcurno Beach (Cornwall)\n• Kynance Cove (Cornwall)\n• Charlestown Beach (Cornwall)\n• Littlehampton Beach (Central) (West Sussex)\n• Littlehampton Beach (West) (West Sussex)\n• Bognor Regis Beach (Central) (West Sussex)\n• Bognor Regis Beach (East) (West Sussex)\n• Felpham Beach (West Sussex)\n• Rustington Beach (West Sussex)\n• Pagham Beach (West Sussex)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO Final reminder: 36 beach(es) expire 1 May 2028
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0b517230-74b9-4fed-a334-993613bb1c07@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20280313
+DTEND;VALUE=DATE:20280313
+SUMMARY:🏖 PSPO 3-month warning: 8 beach(es) expire 5 June 2028
+DESCRIPTION:PSPO expiry 3-month warning — expires 5 June 2028\n\nBeaches to verify:\n• Scarborough North Bay Beach (Yorkshire)\n• Scarborough South Bay Beach (Yorkshire)\n• Whitby Beach (Yorkshire)\n• Bridlington North Beach (Yorkshire)\n• Bridlington South Beach (Yorkshire)\n• Filey Beach (Yorkshire)\n• Robin Hood's Bay Beach (Yorkshire)\n• Cayton Bay (Yorkshire)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO 3-month warning: 8 beach(es) expire 5 June 2028
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2e03dad-5bfe-4cda-b204-fe386f555d04@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20280522
+DTEND;VALUE=DATE:20280522
+SUMMARY:🏖 PSPO Final reminder: 8 beach(es) expire 5 June 2028
+DESCRIPTION:PSPO expiry Final reminder — expires 5 June 2028\n\nBeaches to verify:\n• Scarborough North Bay Beach (Yorkshire)\n• Scarborough South Bay Beach (Yorkshire)\n• Whitby Beach (Yorkshire)\n• Bridlington North Beach (Yorkshire)\n• Bridlington South Beach (Yorkshire)\n• Filey Beach (Yorkshire)\n• Robin Hood's Bay Beach (Yorkshire)\n• Cayton Bay (Yorkshire)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO Final reminder: 8 beach(es) expire 5 June 2028
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c03441d6-6068-45c0-b157-ac44b655024d@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20280319
+DTEND;VALUE=DATE:20280319
+SUMMARY:🏖 PSPO 3-month warning: 8 beach(es) expire 11 June 2028
+DESCRIPTION:PSPO expiry 3-month warning — expires 11 June 2028\n\nBeaches to verify:\n• Wells-next-the-Sea Beach (Norfolk)\n• Holkham Beach (Norfolk)\n• Cromer Beach (Norfolk)\n• Sheringham Beach (Norfolk)\n• Mundesley Beach (Norfolk)\n• Sea Palling Beach (Norfolk)\n• Caister-on-Sea Beach (Norfolk)\n• Great Yarmouth Beach (Norfolk)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO 3-month warning: 8 beach(es) expire 11 June 2028
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23c995e8-cb33-4f6b-a0b1-5eafaafb395e@meanweather-beaches
+DTSTAMP:20260628T110632Z
+DTSTART;VALUE=DATE:20280528
+DTEND;VALUE=DATE:20280528
+SUMMARY:🏖 PSPO Final reminder: 8 beach(es) expire 11 June 2028
+DESCRIPTION:PSPO expiry Final reminder — expires 11 June 2028\n\nBeaches to verify:\n• Wells-next-the-Sea Beach (Norfolk)\n• Holkham Beach (Norfolk)\n• Cromer Beach (Norfolk)\n• Sheringham Beach (Norfolk)\n• Mundesley Beach (Norfolk)\n• Sea Palling Beach (Norfolk)\n• Caister-on-Sea Beach (Norfolk)\n• Great Yarmouth Beach (Norfolk)\n\nAction:\n1. Visit each council website\n2. Confirm restrictions unchanged or update beaches.json\n3. Update pspo_expires date\n4. Run: python3 update_beaches.py && git push
+BEGIN:VALARM
+TRIGGER:-PT0S
+ACTION:DISPLAY
+DESCRIPTION:🏖 PSPO Final reminder: 8 beach(es) expire 11 June 2028
+END:VALARM
+END:VEVENT
+END:VCALENDAR
