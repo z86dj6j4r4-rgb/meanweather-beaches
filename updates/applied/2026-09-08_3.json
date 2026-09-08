@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gb_gower_port_eynon",
+    "_delete": true,
+    "_reason": "Duplicate of gb_swansea_port_eynon_bay (230m apart, same EA id 37500). Swansea copy retained with corrected zone description; this entry described the ban as running east towards Horton without naming the permitted western section.",
+    "removed_entry": {
+      "id": "gb_gower_port_eynon",
+      "name": "Port Eynon Beach",
+      "county": "Gower",
+      "lat": 51.5412,
+      "lng": -4.2112,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned from main steps east towards Horton, May 1\u2013Sep 30. Dog-friendly section west of steps past old salt house ruins. Swansea Council PSPO.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01",
+      "water_quality_authority": "nrw",
+      "water_quality_site_id": "37500"
+    }
+  }
+]

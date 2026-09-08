@@ -1,5 +1,10 @@
 ## Beach data update — 2026-09-08
 
+**Removed**
+- Gower: 1 duplicate entry removed
+
+## Beach data update — 2026-09-08
+
 **Verified, no change**
 - Swansea: 11 beaches re-verified
 

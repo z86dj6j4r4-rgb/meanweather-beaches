@@ -1,1 +1,3 @@
-[]
+[
+  {"id": "gb_gower_port_eynon", "_delete": true, "_reason": "Duplicate of gb_swansea_port_eynon_bay (230m apart, same EA id 37500). Swansea copy retained with corrected zone description; this entry described the ban as running east towards Horton without naming the permitted western section."}
+]
