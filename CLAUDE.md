@@ -7,7 +7,8 @@ Reference for Claude Code. Read this fully before editing `beaches.json`.
 `beaches.json` is the source of UK beach dog-restriction data for MeanWeather. It lives in
 this repo, is published via GitHub Pages, and is served to the app through a Cloudflare
 worker at `https://beaches.rnv4mj76rr.workers.dev/beaches/nearby?lat=&lon=&radius=`
-with a 6-hour cache TTL. The app consumes it via `BeachService.swift`.
+with a 6-hour cache TTL. The app consumes it via `BeachResult` in `BeachService.swift`,
+which lives in the separate iOS app repo, not here.
 
 Two things every new beach needs:
 
@@ -33,44 +34,60 @@ misleading — the parser only reports where it gave up, not where the fault is.
 
 ## Entry schema
 
-Field names are snake_case in JSON and map to camelCase in `BeachResult` in
-`BeachService.swift`. Check that file if the model has changed.
+Field names are snake_case in JSON. `BeachService.swift` is not in this repo (it lives in
+the iOS app repo) — this schema is derived from the **312 entries actually in the live
+file**, confirmed field-by-field, not from the Swift model. If you get access to
+`BeachResult` and it disagrees with this, the Swift model wins — update this doc and say so.
 
 ```json
 {
-  "id": "kebab-case-unique",
+  "id": "gb_county-slug_beach-slug",
   "name": "Beach Name",
   "county": "County",
   "lat": 00.0000,
   "lng": -0.0000,
-  "restriction_type": "seasonal | seasonal_time | seasonal_partial | none",
-  "dog_status_detail": "Human-readable sentence describing the rule.",
+  "restriction_type": "prohibited_seasonal | on_lead_seasonal | prohibited_year_round | no_restriction",
   "restricted_date_start": "MM-DD",
   "restricted_date_end": "MM-DD",
   "restricted_time_start": "HH:mm",
   "restricted_time_end": "HH:mm",
   "on_lead_required": false,
-  "notes": "Enforcement detail, PSPO expiry, caveats.",
+  "notes": "Human-readable rule detail, FPN amount, enforcement, caveats.",
   "source_url": "https://council.gov.uk/...",
-  "last_verified": "YYYY-MM-DD",
+  "last_verified": "YYYY-MM",
+  "pspo_expires": "YYYY-MM-DD",
   "water_quality_authority": "ea | nrw",
-  "water_quality_site_id": "05300",
-  "storm_overflow_active": false
+  "water_quality_site_id": "05300"
 }
 ```
 
+There is no separate `dog_status_detail` field — the human-readable rule description lives
+in `notes`, alongside enforcement/FPN detail.
+
+`storm_overflow_active` and `dog_status_detail` do **not** belong in `beaches.json` — they
+appear nowhere in the live file. If something injects storm-overflow status, it happens at
+the Cloudflare worker, at request time, not in this stored file. Do not add either key to
+an entry.
+
 ### Required vs optional
 
-`storm_overflow_active` is a non-optional `Bool` in Swift — **always include it**, set to
-`false` unless there is a live SWW feed for that beach. `last_verified` is likewise
-non-optional.
+`id`, `name`, `county`, `lat`, `lng`, `restriction_type`, `restricted_date_start`,
+`restricted_date_end`, `restricted_time_start`, `restricted_time_end`, `on_lead_required`,
+`notes`, `source_url` and `last_verified` are present on every entry — always include them.
 
-`water_quality_authority`, `water_quality_site_id` and `storm_overflow_water_course` are
-`String?`. **Omit the key entirely** rather than writing `null` — Swift's decoder uses
-`decodeIfPresent` for optionals, so a missing key becomes `nil` cleanly.
+`pspo_expires` is present on most entries but is `null` for beaches with no fixed-term
+order — Scottish byelaw beaches (Fife, East Lothian, Edinburgh) and private/landowner-
+controlled beaches (e.g. Tunnels Beach, Hartland Quay) genuinely have no PSPO to expire.
 
-The date/time fields are `String?` and *should* be written as explicit `null` when a beach
-has no restriction, because `dogStatusNow` checks them for nil to decide "always allowed".
+`water_quality_authority` and `water_quality_site_id` are optional and always appear
+together. **Omit both keys entirely** rather than writing `null` when a beach has no EA/NRW
+designation — the app's decoder treats a missing key as cleanly absent. A small number of
+existing entries (mostly Scotland, where SEPA matching is pending per `meta.water_quality_note`)
+carry both keys as an explicit `null` pair instead — that's a distinct "not yet matched"
+state from older data, not a convention to follow for new entries.
+
+The date/time fields are written as explicit `null` when a beach has no restriction,
+because `dogStatusNow` checks them for nil to decide "always allowed".
 
 ### Why one bad entry breaks everything
 
@@ -166,14 +183,17 @@ grep -o '"id": "[^"]*"' beaches.json | sort | uniq -d
 
 # 4. Every entry has the non-optional fields (counts must all match count from #2)
 grep -c '"last_verified"' beaches.json
-grep -c '"storm_overflow_active"' beaches.json
+grep -c '"restriction_type"' beaches.json
 
-# 5. Confirm today's additions landed
-grep -c '"last_verified": "YYYY-MM-DD"' beaches.json
+# 5. Confirm today's additions landed (adjust the month to this one, format is YYYY-MM)
+grep -c '"last_verified": "2026-09"' beaches.json
 ```
 
-Then update the `coverage` array in the metadata block if any new county was introduced,
-and bump any total/`generated_at` field that is maintained by hand.
+`scripts/validate_beaches.py` runs a stricter version of all five checks plus the
+UK-bounding-box, `water_quality_site_id`-length, `restriction_type`-enum and
+`meta.total_beaches`-vs-actual-count checks — run it too. `update_beaches.py` rebuilds the
+`coverage` array and `meta.total_beaches`/`last_updated` automatically; run it after any
+edit rather than updating those fields by hand.
 
 ## Commit and deploy
 
@@ -190,13 +210,14 @@ hit the worker directly with coordinates near a new beach and check it appears.
 ## Checklist for a new batch
 
 - [ ] Every beach sourced from a council PSPO page, URL in `source_url`
-- [ ] `last_verified` set to today on every new entry
+- [ ] `last_verified` set to this month (`YYYY-MM`) on every new entry
+- [ ] `pspo_expires` set (or left `null` only for byelaw/private beaches) on every new entry
 - [ ] Coordinates geocoded, not recalled from memory — verify each one
 - [ ] EA code looked up via the API, leading zeros intact
 - [ ] Beaches with no EA designation have both water-quality keys omitted
 - [ ] Welsh beaches use `"nrw"`, not `"ea"`
-- [ ] `storm_overflow_active` present on every entry
+- [ ] No `storm_overflow_active` or `dog_status_detail` keys added — not part of this schema
 - [ ] No mid-month start dates unless `monthInt` has been made day-aware
-- [ ] All five validation commands pass
-- [ ] `coverage` array updated for new counties
+- [ ] All validation commands and `scripts/validate_beaches.py` pass
+- [ ] `update_beaches.py` run so `coverage`/`total_beaches`/`last_updated` are current
 - [ ] File ends `}` then `]` then `}`
