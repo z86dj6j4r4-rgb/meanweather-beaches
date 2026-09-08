@@ -1,1 +1,19 @@
-[]
+[
+  {"id": "gb_gower_rhossili", "_delete": true, "_reason": "Duplicate of gb_swansea_rhossili (450m apart, same beach, same EA id 37600)"},
+  {"id": "gb_gower_oxwich_bay", "_delete": true, "_reason": "Duplicate of gb_swansea_oxwich_bay (930m apart, same beach, same EA id 37400)"},
+  {"id": "gb_gower_caswell_bay", "_delete": true, "_reason": "Mislabelled \u2014 coordinates 3.6km from Caswell, sitting on Bracelet Bay which already exists; EA id 37000 differs from Caswell's 37300"},
+
+  {"id": "gb_gower_three_cliffs", "county": "Swansea", "last_verified": "2026-09", "_reason": "Gower is a peninsula within Swansea, not a separate county"},
+  {"id": "gb_gower_llangennith", "county": "Swansea", "last_verified": "2026-09", "_reason": "Gower is a peninsula within Swansea, not a separate county"},
+  {"id": "gb_gower_horton", "county": "Swansea", "last_verified": "2026-09", "_reason": "Gower is a peninsula within Swansea, not a separate county"},
+  {"id": "gb_gower_swansea_bay_central", "county": "Swansea", "last_verified": "2026-09", "_reason": "Gower is a peninsula within Swansea, not a separate county"},
+
+
+  {"id": "gb_swansea_bracelet_bay", "pspo_expires": null, "last_verified": "2026-09", "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"},
+  {"id": "gb_swansea_limeslade_bay", "pspo_expires": null, "last_verified": "2026-09", "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"},
+  {"id": "gb_swansea_langland_bay", "pspo_expires": null, "last_verified": "2026-09", "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"},
+  {"id": "gb_swansea_caswell_bay", "pspo_expires": null, "last_verified": "2026-09", "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"},
+  {"id": "gb_swansea_oxwich_bay", "pspo_expires": null, "last_verified": "2026-09", "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"},
+  {"id": "gb_swansea_port_eynon_bay", "notes": "Swansea Council byelaw. Dogs banned from the eastern edge of the Port Eynon beach steps to the eastern edge of Horton beach access, 1 May \u2013 30 Sep. Dogs allowed all year from the main steps west to the Salt House. Horton is dog-friendly year-round from the lifeguard station east towards Oxwich.", "pspo_expires": null, "last_verified": "2026-09", "_reason": "Note previously described the permitted section as the banned one; Swansea uses a 1991 byelaw, not a PSPO"},
+  {"id": "gb_swansea_rhossili", "pspo_expires": null, "last_verified": "2026-09", "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"}
+]

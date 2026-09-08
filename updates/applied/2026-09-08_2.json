@@ -1,0 +1,141 @@
+[
+  {
+    "id": "gb_gower_rhossili",
+    "_delete": true,
+    "_reason": "Duplicate of gb_swansea_rhossili (450m apart, same beach, same EA id 37600)",
+    "removed_entry": {
+      "id": "gb_gower_rhossili",
+      "name": "Rhossili Bay",
+      "county": "Gower",
+      "lat": 51.5634,
+      "lng": -4.2934,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Voted UK's No.1 dog-friendly beach by The Times. Swansea Council \u2014 no seasonal ban. Lead advised near wild ponies on clifftop.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01",
+      "water_quality_authority": "nrw",
+      "water_quality_site_id": "37600"
+    }
+  },
+  {
+    "id": "gb_gower_oxwich_bay",
+    "_delete": true,
+    "_reason": "Duplicate of gb_swansea_oxwich_bay (930m apart, same beach, same EA id 37400)",
+    "removed_entry": {
+      "id": "gb_gower_oxwich_bay",
+      "name": "Oxwich Bay",
+      "county": "Gower",
+      "lat": 51.5534,
+      "lng": -4.1512,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. 2.5 mile beach backed by National Nature Reserve dunes. Swansea Council \u2014 no seasonal ban.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01",
+      "water_quality_authority": "nrw",
+      "water_quality_site_id": "37400"
+    }
+  },
+  {
+    "id": "gb_gower_caswell_bay",
+    "_delete": true,
+    "_reason": "Mislabelled \u2014 coordinates 3.6km from Caswell, sitting on Bracelet Bay which already exists; EA id 37000 differs from Caswell's 37300",
+    "removed_entry": {
+      "id": "gb_gower_caswell_bay",
+      "name": "Caswell Bay",
+      "county": "Gower",
+      "lat": 51.5698,
+      "lng": -3.9934,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs banned May 1\u2013Sep 30. Swansea Council PSPO. Nearby Brandy Cove remains dog-friendly year-round.",
+      "source_url": "https://enjoygower.com/beaches-for-dogs",
+      "last_verified": "2026-06",
+      "pspo_expires": "2027-05-01",
+      "water_quality_authority": "nrw",
+      "water_quality_site_id": "37000"
+    }
+  },
+  {
+    "id": "gb_gower_three_cliffs",
+    "county": "Swansea",
+    "last_verified": "2026-09",
+    "_reason": "Gower is a peninsula within Swansea, not a separate county"
+  },
+  {
+    "id": "gb_gower_llangennith",
+    "county": "Swansea",
+    "last_verified": "2026-09",
+    "_reason": "Gower is a peninsula within Swansea, not a separate county"
+  },
+  {
+    "id": "gb_gower_horton",
+    "county": "Swansea",
+    "last_verified": "2026-09",
+    "_reason": "Gower is a peninsula within Swansea, not a separate county"
+  },
+  {
+    "id": "gb_gower_swansea_bay_central",
+    "county": "Swansea",
+    "last_verified": "2026-09",
+    "_reason": "Gower is a peninsula within Swansea, not a separate county"
+  },
+  {
+    "id": "gb_swansea_bracelet_bay",
+    "pspo_expires": null,
+    "last_verified": "2026-09",
+    "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"
+  },
+  {
+    "id": "gb_swansea_limeslade_bay",
+    "pspo_expires": null,
+    "last_verified": "2026-09",
+    "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"
+  },
+  {
+    "id": "gb_swansea_langland_bay",
+    "pspo_expires": null,
+    "last_verified": "2026-09",
+    "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"
+  },
+  {
+    "id": "gb_swansea_caswell_bay",
+    "pspo_expires": null,
+    "last_verified": "2026-09",
+    "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"
+  },
+  {
+    "id": "gb_swansea_oxwich_bay",
+    "pspo_expires": null,
+    "last_verified": "2026-09",
+    "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"
+  },
+  {
+    "id": "gb_swansea_port_eynon_bay",
+    "notes": "Swansea Council byelaw. Dogs banned from the eastern edge of the Port Eynon beach steps to the eastern edge of Horton beach access, 1 May \u2013 30 Sep. Dogs allowed all year from the main steps west to the Salt House. Horton is dog-friendly year-round from the lifeguard station east towards Oxwich.",
+    "pspo_expires": null,
+    "last_verified": "2026-09",
+    "_reason": "Note previously described the permitted section as the banned one; Swansea uses a 1991 byelaw, not a PSPO"
+  },
+  {
+    "id": "gb_swansea_rhossili",
+    "pspo_expires": null,
+    "last_verified": "2026-09",
+    "_reason": "Swansea uses a 1991 byelaw for beach dog control, not a PSPO"
+  }
+]
