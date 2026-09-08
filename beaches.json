@@ -39,7 +39,7 @@
       "prohibited_year_round": "Dogs never permitted",
       "no_restriction": "Dogs welcome at all times"
     },
-    "total_beaches": 315,
+    "total_beaches": 318,
     "water_quality_note": "water_quality_authority/site_id: 'ea' = Environment Agency (England), 'nrw' = Natural Resources Wales. Scotland (SEPA) matching pending.",
     "id_fix_note": "2026-07-20: gb_devon_saunton_sands, gb_devon_croyde_bay, gb_devon_combe_martin were duplicate IDs shared by 2 distinct beaches each. Split into _1/_2 suffixed IDs and water quality re-matched independently for each. Correction: gb_devon_saunton_sands_2 was initially matched to Putsborough (34300) by nearest-coordinate distance, but Putsborough is a physically separate beach on the other side of a headland \u2014 corrected to Saunton Sands (34100), same as _1."
   },
@@ -6025,6 +6025,57 @@
       "last_verified": "2026-09",
       "water_quality_authority": "ea",
       "water_quality_site_id": "05400"
+    },
+    {
+      "id": "gb_west_sussex_climping",
+      "name": "Climping Beach",
+      "county": "West Sussex",
+      "lat": 50.7978,
+      "lng": -0.5734,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Arun District Council restricts only sections of Bognor Regis, Felpham and Littlehampton. Shingle beach, limited parking, recent sea defence works have reshaped access.",
+      "source_url": "https://www.arun.gov.uk/beach-safety/",
+      "last_verified": "2026-09",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_west_sussex_middleton_on_sea",
+      "name": "Middleton-on-Sea Beach",
+      "county": "West Sussex",
+      "lat": 50.793,
+      "lng": -0.618,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Between Felpham and Elmer, outside the restricted sections. COORDINATE APPROXIMATE \u2014 village centre geocoded, verify beach access point.",
+      "source_url": "https://www.arun.gov.uk/beach-safety/",
+      "last_verified": "2026-09",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_west_sussex_ferring",
+      "name": "Ferring Beach",
+      "county": "West Sussex",
+      "lat": 50.8024,
+      "lng": -0.4506,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. Popular with dog walkers. Shingle with sand at low tide, free parking, cafe. Arun district, east of Rustington.",
+      "source_url": "https://www.arun.gov.uk/beach-safety/",
+      "last_verified": "2026-09",
+      "pspo_expires": null
     }
   ]
 }
