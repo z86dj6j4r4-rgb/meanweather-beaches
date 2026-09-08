@@ -28,6 +28,7 @@
       "Somerset",
       "Suffolk",
       "Swansea",
+      "Tyne and Wear",
       "West Sussex",
       "Yorkshire"
     ],
@@ -38,7 +39,7 @@
       "prohibited_year_round": "Dogs never permitted",
       "no_restriction": "Dogs welcome at all times"
     },
-    "total_beaches": 312,
+    "total_beaches": 315,
     "water_quality_note": "water_quality_authority/site_id: 'ea' = Environment Agency (England), 'nrw' = Natural Resources Wales. Scotland (SEPA) matching pending.",
     "id_fix_note": "2026-07-20: gb_devon_saunton_sands, gb_devon_croyde_bay, gb_devon_combe_martin were duplicate IDs shared by 2 distinct beaches each. Split into _1/_2 suffixed IDs and water quality re-matched independently for each. Correction: gb_devon_saunton_sands_2 was initially matched to Putsborough (34300) by nearest-coordinate distance, but Putsborough is a physically separate beach on the other side of a headland \u2014 corrected to Saunton Sands (34100), same as _1."
   },
@@ -5970,6 +5971,60 @@
       "pspo_expires": null,
       "water_quality_authority": "ea",
       "water_quality_site_id": "24700"
+    },
+    {
+      "id": "gb_tyne_and_wear_sandhaven",
+      "name": "Sandhaven Beach",
+      "county": "Tyne and Wear",
+      "lat": 54.9985,
+      "lng": -1.413,
+      "restriction_type": "prohibited_seasonal",
+      "restricted_date_start": "05-01",
+      "restricted_date_end": "09-30",
+      "restricted_time_start": "08:00",
+      "restricted_time_end": "18:00",
+      "on_lead_required": false,
+      "notes": "Dogs excluded 8am\u20136pm, May 1\u2013Sep 30. Zone runs from South Shields pier to Trow Point. South Tyneside Council PSPO. FPN \u00a3100. Order under review Sep 2026 \u2014 recheck after renewal.",
+      "source_url": "https://www.southtyneside.gov.uk/article/1538/Dogs-on-the-beach",
+      "last_verified": "2026-09",
+      "pspo_expires": "2026-11-04",
+      "water_quality_authority": "ea",
+      "water_quality_site_id": "05300"
+    },
+    {
+      "id": "gb_tyne_and_wear_littlehaven",
+      "name": "Littlehaven Beach",
+      "county": "Tyne and Wear",
+      "lat": 55.0075,
+      "lng": -1.418,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. South Tyneside Council PSPO restricts Sandhaven only. Not an EA-designated bathing water.",
+      "source_url": "https://www.southtyneside.gov.uk/article/1538/Dogs-on-the-beach",
+      "last_verified": "2026-09",
+      "pspo_expires": null
+    },
+    {
+      "id": "gb_tyne_and_wear_marsden_bay",
+      "name": "Marsden Bay",
+      "county": "Tyne and Wear",
+      "lat": 54.9755,
+      "lng": -1.3855,
+      "restriction_type": "no_restriction",
+      "restricted_date_start": null,
+      "restricted_date_end": null,
+      "restricted_time_start": null,
+      "restricted_time_end": null,
+      "on_lead_required": false,
+      "notes": "Dogs welcome all year. South Tyneside Council PSPO restricts Sandhaven only. Designated bathing water.",
+      "source_url": "https://www.southtyneside.gov.uk/article/1538/Dogs-on-the-beach",
+      "last_verified": "2026-09",
+      "water_quality_authority": "ea",
+      "water_quality_site_id": "05400"
     }
   ]
 }

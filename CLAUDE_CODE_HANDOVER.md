@@ -8,18 +8,21 @@ Brief for Claude Code. Read this and `CLAUDE.md` before doing anything.
 Store). It has **300+ entries** and is served to users via GitHub Pages → a Cloudflare
 worker → the app. It is consumed by `BeachResult` in `BeachService.swift`.
 
-The file has been hand-edited to date. That no longer scales, and there are two
-consequences to fix:
+The file has been hand-edited to date. That no longer scales:
 
-1. **Duplicates have crept in.** A batch of 15 beaches was pasted in locally today.
-   On review, only ~3–4 are genuinely new; the rest already existed under different
-   ids, and in some cases different names for the same beach.
+1. **Hand-pasting entries breaks the file.** A recent paste of new beaches replaced
+   the file's closing braces and had to be rolled back with `git checkout`. Nothing
+   was pushed and no users were affected, but this is the third or fourth time.
 2. **Structural breakage is easy and silent.** `JSONDecoder` fails the *entire array*
    if one element fails to decode, so a single entry missing a non-optional field
    blanks every beach in the app. There is no error surfaced to the user — just an
    empty list.
+3. **Matching beaches to EA bathing water ids is manual and error-prone.** The EA's
+   official names differ routinely from council and colloquial names, so name-based
+   lookup fails often.
 
-Nothing has been pushed. The bad state is local only.
+The working tree is currently clean and matches what is serving users. Build the
+tooling against this known-good state.
 
 ## Ground rules
 
@@ -53,10 +56,10 @@ Then read and report back on:
 
 State what you found before proceeding. Do not assume.
 
-## Task 0 — De-duplicate (urgent, do this first)
+## Task 0 — Duplicate health check
 
-15 entries were appended today, all with `"last_verified": "2026-09-07"`. Most are
-duplicates of existing beaches.
+The file has been hand-maintained for a long time and has never been checked for
+duplicates. There may well be beaches entered twice under different names.
 
 Write `scripts/find_duplicates.py` that reports, for the whole file:
 
@@ -66,12 +69,12 @@ Write `scripts/find_duplicates.py` that reports, for the whole file:
   appears under different names (e.g. "Sandhaven Beach" vs "South Shields"), so
   coordinate proximity is the only reliable detector.
 
-Output a review list, oldest entry first, showing both entries side by side with
-their ids, names, coordinates, distance apart, and `last_verified`. Do not
-auto-delete anything — the human decides which to keep, since the older entry may
-have better data or the newer one may have the EA id.
+Output a review list showing both entries side by side with their ids, names,
+coordinates, distance apart, and `last_verified`. **Do not auto-delete anything** —
+the human decides which to keep, since one entry may have better restriction data
+and the other may have the EA id.
 
-Once decisions are made, apply them and re-validate.
+This is diagnostic only at this stage. Report findings and stop.
 
 ## Task 1 — Validator
 
@@ -133,14 +136,28 @@ Behaviour:
    Name matching has already failed repeatedly.
 4. Check each new beach against existing entries for proximity duplicates before
    appending. Refuse to add anything within 300m of an existing beach; report it.
-5. Rewrite metadata: total = actual length, coverage = sorted set of counties,
-   `generated_at` timestamp.
+5. Rewrite the metadata block at the top of the file. It contains `version`,
+   `last_updated` and `coverage`, all currently maintained by hand and therefore
+   prone to drift. On every run:
+   - `coverage` = sorted set of counties present in the beaches array
+   - `last_updated` = today's date
+   - `version` = auto-increment the patch number (this is informational for the
+     maintainer only; the app does not read it — its purpose is confirming that
+     what the worker is serving matches what was last committed)
+   - any stored total = actual array length
 6. Print a review table: beach → matched EA name → site id → distance → verdict.
 
 **Regression test:** running the merge with an empty new-beaches file must produce
 output byte-identical to `reference/beaches.snapshot.json` except for
-`generated_at`. If a formatting pass silently rewrites 300 existing entries, this
-catches it. Write this test before the merge script itself.
+`last_updated` and `version`. If a formatting pass silently rewrites 300 existing
+entries, this catches it. Write this test before the merge script itself.
+
+**First live input:** three South Tyneside beaches are pending and will be
+supplied as `new_beaches.json` — Sandhaven Beach (EA `05300`), Littlehaven Beach
+(not an EA-designated bathing water, so no water-quality keys) and Marsden Bay
+(EA `05400`). These are the merge script's first real test. The coordinates in
+that file are approximations and must be geocoded properly before the merge is
+applied — flag them rather than trusting them.
 
 ## Task 4 — Staleness report
 
@@ -188,10 +205,11 @@ it as part of this work unless asked.
 ## Order of work
 
 0. Snapshot, then report findings from the "before writing any code" section
-1. `find_duplicates.py`, clean up today's 15
+1. `find_duplicates.py` — run as a health check, report, do not delete
 2. `validate_beaches.py`, calibrated against the live file
 3. EA cache
-4. Merge script + regression test
+4. Merge script + regression test, then the three South Tyneside beaches as its
+   first live run
 5. Staleness report
 6. Hooks and Action
 
