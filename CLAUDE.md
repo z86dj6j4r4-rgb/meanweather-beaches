@@ -83,8 +83,7 @@ an entry.
 `notes`, `source_url` and `last_verified` are present on every entry — always include them.
 
 `pspo_expires` is present on most entries but is `null` for beaches with no fixed-term
-order — Scottish byelaw beaches (Fife, East Lothian, Edinburgh) and private/landowner-
-controlled beaches (e.g. Tunnels Beach, Hartland Quay) genuinely have no PSPO to expire.
+order — see "Why some `pspo_expires` are null" below before treating one as missing data.
 
 `water_quality_authority` and `water_quality_site_id` are optional and always appear
 together. **Omit both keys entirely** rather than writing `null` when a beach has no EA/NRW
@@ -95,6 +94,25 @@ state from older data, not a convention to follow for new entries.
 
 The date/time fields are written as explicit `null` when a beach has no restriction,
 because `dogStatusNow` checks them for nil to decide "always allowed".
+
+## Why some pspo_expires are null
+
+`pspo_expires` is `null` for three known groups, and that is correct data, not a gap —
+don't flag it as missing or try to "fix" it with a guessed date:
+
+- **Scotland** (Fife, East Lothian, Edinburgh, and any other Scottish entries). PSPOs are
+  England-and-Wales legislation; they don't exist in Scots law. Scottish councils control
+  dog access with byelaws instead, which have no fixed expiry to track.
+- **Anglesey**. Restrictions there run under the Dogs (Fouling of Land) Order 1997, not a
+  PSPO. A PSPO was consulted on in 2026 but is not confirmed — if and when it lands,
+  `restriction_type`/dates and `pspo_expires` for Anglesey entries need revisiting together,
+  not just the expiry date.
+- **Privately owned beaches** (e.g. Tunnels Beach, Hartland Quay). Landowner access rules
+  aren't a council order and have no statutory term.
+
+`validate_beaches.py` treats `pspo_expires: null` as valid for every entry, not just these
+three groups, because it can't distinguish "genuinely no PSPO" from "not filled in yet"
+from field content alone — that judgement call stays with whoever reviews the entry.
 
 ### Why one bad entry breaks everything
 
