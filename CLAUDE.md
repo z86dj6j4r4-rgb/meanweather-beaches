@@ -17,6 +17,13 @@ Two things every new beach needs:
 2. **The EA bathing water code** — a 5-digit sampling point ID, if the beach is a
    designated bathing water. Many are not, and that is fine.
 
+## Never open beaches.json in an editor
+
+Scripts own this file. Editing it by hand, or leaving it open in a tab while a script
+runs, causes save conflicts that can silently revert work. Use `new_beaches.json` (with
+`scripts/merge_beaches.py`) for additions, and terminal commands (`grep`, `jq`,
+`python3 -m json.tool`, the scripts in `scripts/`) to inspect it — never an editor tab.
+
 ## File shape
 
 Top-level **object**, not a bare array. There is a metadata block first (including a
